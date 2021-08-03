@@ -60,7 +60,7 @@
                             <a class="active"
                                href="/"
                             >
-                                首页
+                                HOME
                             </a>
                         </li>
                     
@@ -68,7 +68,7 @@
                             <a class=""
                                href="/archives"
                             >
-                                归档
+                                ARCHIVES
                             </a>
                         </li>
                     
@@ -89,12 +89,12 @@
             
                 <li class="drawer-menu-item flex-center">
                     <a class="active"
-                       href="/">首页</a>
+                       href="/">HOME</a>
                 </li>
             
                 <li class="drawer-menu-item flex-center">
                     <a class=""
-                       href="/archives">归档</a>
+                       href="/archives">ARCHIVES</a>
                 </li>
             
         </ul>
@@ -112,120 +112,108 @@
             <div class="main-content">
 
                 
-                    .home-content-container {
-  background: var(--background-color);
+                    <div class="home-content-container fade-in-down-animation">
+    <ul class="home-article-list">
+        
+            <li class="home-article-item">
 
+                
 
-  .home-article-list {
+                <h3 class="home-article-title">
+                    <a href="/2021/08/03/electron-ssr-%E8%B8%A9%E5%9D%91/">
+                        electron-ssr 踩坑
+                    </a>
+                </h3>
 
-    .home-article-item {
-      position: relative;
+                <div class="home-article-content markdown-body">
+                    
+                        环境 ubuntu18.04， 正常安装出现了各式各样的bug
+正常的安装流程https://github.com/qingshuisiyuan/electron-ssr-backup/blob/master/Ubuntu.md
+出现问题不要慌，看下...
+                    
+                </div>
 
-      keep-container(true, 1.015, 1.015, 28px, 38px);
+                <div class="home-article-meta-info-container">
+    <div class="home-article-meta-info">
+        <span><i class="fas fa-history"></i>&nbsp;<span class="home-article-date" data-date="Tue Aug 03 2021 17:48:33 GMT+0800">2021-08-03</span></span>
+        
+        
+    </div>
 
-      .top-icon {
-        position: absolute;
-        top: 10px;
-        right: 12px;
-        font-size: 1.2rem;
-        transform: rotate(45deg);
-        color: var(--third-text-color);
+    <a href="/2021/08/03/electron-ssr-%E8%B8%A9%E5%9D%91/">Read more&nbsp;<i class="fas fa-angle-right"></i></a>
+</div>
 
+            </li>
+        
+            <li class="home-article-item">
 
-        +keep-tablet() {
-          font-size: 1.16rem;
-        }
-      }
+                
 
+                <h3 class="home-article-title">
+                    <a href="/2021/08/03/My-New-Post/">
+                        My New Post
+                    </a>
+                </h3>
 
-      .home-article-title {
-        position: relative;
-        font-weight: 600;
-        font-size: 1.4rem;
-        line-height: 1.5;
-        color: var(--second-text-color);
+                <div class="home-article-content markdown-body">
+                    
+                        你的这个版本是叫做win10 enterprise ltsb，本身是不带商店的，是给有特殊需要的人用的，是有方法可以装上商店。
+但是我的建议是：与其折腾那个，不如重新装个专业版或者普通的企业版吧，那样子对你以后的使用可能会更好~
+还有就是……别用这种...
+                    
+                </div>
 
+                <div class="home-article-meta-info-container">
+    <div class="home-article-meta-info">
+        <span><i class="fas fa-history"></i>&nbsp;<span class="home-article-date" data-date="Tue Aug 03 2021 00:09:29 GMT+0800">2021-08-03</span></span>
+        
+        
+    </div>
 
-        +keep-tablet() {
-          font-size: 1.3rem;
-        }
+    <a href="/2021/08/03/My-New-Post/">Read more&nbsp;<i class="fas fa-angle-right"></i></a>
+</div>
 
+            </li>
+        
+            <li class="home-article-item">
 
-        +keep-mobile() {
-          font-size: 1.2rem;
-        }
+                
 
-        margin: 0;
+                <h3 class="home-article-title">
+                    <a href="/2021/08/03/hello-world/">
+                        Hello World
+                    </a>
+                </h3>
 
-      }
+                <div class="home-article-content markdown-body">
+                    
+                        Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, yo...
+                    
+                </div>
 
+                <div class="home-article-meta-info-container">
+    <div class="home-article-meta-info">
+        <span><i class="fas fa-history"></i>&nbsp;<span class="home-article-date" data-date="Tue Aug 03 2021 00:00:16 GMT+0800">2021-08-03</span></span>
+        
+        
+    </div>
 
-      .home-article-content {
-        word-wrap: break-word;
-        text-align: justify;
-        margin: 20px 0;
-        color: var(--default-text-color);
-      }
+    <a href="/2021/08/03/hello-world/">Read more&nbsp;<i class="fas fa-angle-right"></i></a>
+</div>
 
+            </li>
+        
+    </ul>
 
-      .home-article-meta-info-container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        font-size: 0.92rem;
-        color: var(--third-text-color);
+    <div class="home-paginator">
+        <div class="paginator">
+    
 
+    
+</div>
 
-        .home-article-meta-info {
-          letter-spacing: 0.5px;
-
-          span {
-            margin-right: 10px;
-
-            &:last-child {
-              margin-right: 0;
-            }
-
-            ul, li {
-              display: inline;
-            }
-          }
-
-          .home-article-category {
-            +keep-mobile() {
-              display: none;
-            }
-          }
-
-          .home-article-tag {
-            +keep-tablet() {
-              display: none;
-            }
-          }
-        }
-
-
-        hr {
-          border: none;
-          flex: 1;
-          height: 1px;
-          background: var(--border-color);
-          margin: 0 10px;
-        }
-
-        a {
-          color: var(--third-text-color);
-
-          &:hover {
-            color: var(--primary-color)
-          }
-        }
-      }
-
-
-    }
-  }
-}
+    </div>
+</div>
 
 
                 
@@ -245,7 +233,7 @@
         </div>
         
         <div class="theme-info info-item">
-            由 <a target="_blank" href="https://hexo.io">Hexo</a> 驱动&nbsp;|&nbsp;主题&nbsp;<a class="theme-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep v3.4.3</a>
+            Powered by <a target="_blank" href="https://hexo.io">Hexo</a>&nbsp;|&nbsp;Theme&nbsp;<a class="theme-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep v3.4.3</a>
         </div>
         
     </div>
