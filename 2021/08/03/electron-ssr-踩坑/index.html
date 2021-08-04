@@ -18,15 +18,15 @@
   
   
   <title>electron-ssr 踩坑 | hyaline blog</title>
-  <meta name="description" content="环境 ubuntu18.04， 正常安装出现了各式各样的bug 正常的安装流程https:&#x2F;&#x2F;github.com&#x2F;qingshuisiyuan&#x2F;electron-ssr-backup&#x2F;blob&#x2F;master&#x2F;Ubuntu.md 出现问题不要慌，看下面 有些 apt install 命令在是无法执行的比如  在18.04下默认安装了Python 3.6.8，所以是没有python命令的可以选择安装">
+  <meta name="description" content="[TOC] electron-ssr安装环境 ubuntu18.04， 正常安装出现了各式各样的bug 正常的安装流程https:&#x2F;&#x2F;github.com&#x2F;qingshuisiyuan&#x2F;electron-ssr-backup&#x2F;blob&#x2F;master&#x2F;Ubuntu.md 出现问题不要慌，看下面 遇到的问题python装不上有些 apt install 命令在是无法执行的 在18.04下默认安装了Py">
 <meta property="og:type" content="article">
 <meta property="og:title" content="electron-ssr 踩坑">
 <meta property="og:url" content="http://www.hyaline.top/2021/08/03/electron-ssr-%E8%B8%A9%E5%9D%91/index.html">
 <meta property="og:site_name" content="My Blog">
-<meta property="og:description" content="环境 ubuntu18.04， 正常安装出现了各式各样的bug 正常的安装流程https:&#x2F;&#x2F;github.com&#x2F;qingshuisiyuan&#x2F;electron-ssr-backup&#x2F;blob&#x2F;master&#x2F;Ubuntu.md 出现问题不要慌，看下面 有些 apt install 命令在是无法执行的比如  在18.04下默认安装了Python 3.6.8，所以是没有python命令的可以选择安装">
+<meta property="og:description" content="[TOC] electron-ssr安装环境 ubuntu18.04， 正常安装出现了各式各样的bug 正常的安装流程https:&#x2F;&#x2F;github.com&#x2F;qingshuisiyuan&#x2F;electron-ssr-backup&#x2F;blob&#x2F;master&#x2F;Ubuntu.md 出现问题不要慌，看下面 遇到的问题python装不上有些 apt install 命令在是无法执行的 在18.04下默认安装了Py">
 <meta property="og:locale">
 <meta property="article:published_time" content="2021-08-03T09:48:33.000Z">
-<meta property="article:modified_time" content="2021-08-03T15:02:44.604Z">
+<meta property="article:modified_time" content="2021-08-04T01:58:04.880Z">
 <meta property="article:author" content="wanghao">
 <meta property="article:tag" content="ssr">
 <meta property="article:tag" content="linux">
@@ -351,7 +351,7 @@
   <div class="slimContent">
     <nav id="toc" class="article-toc">
       <h3 class="toc-title">Catalogue</h3>
-      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#sudo-apt-get-install-libssl-dev%E4%B9%9F%E6%97%A0%E6%B3%95%E5%AE%89%E8%A3%85%EF%BC%8C%E6%88%91%E6%B2%A1%E6%9C%89%E7%AE%A1%EF%BC%8C%E6%B2%A1%E6%9C%89%E5%BD%B1%E5%93%8D"><span class="toc-number">1.</span> <span class="toc-text">sudo apt-get install libssl-dev也无法安装，我没有管，没有影响</span></a></li></ol>
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#electron-ssr%E5%AE%89%E8%A3%85"><span class="toc-number">1.</span> <span class="toc-text">electron-ssr安装</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98"><span class="toc-number">2.</span> <span class="toc-text">遇到的问题</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#python%E8%A3%85%E4%B8%8D%E4%B8%8A"><span class="toc-number">2.1.</span> <span class="toc-text">python装不上</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BC%BA%E5%B0%91-libcrypto"><span class="toc-number">2.2.</span> <span class="toc-text">缺少 libcrypto</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#sudo-apt-get-install-libssl-dev%E4%B9%9F%E6%97%A0%E6%B3%95%E5%AE%89%E8%A3%85%EF%BC%8C%E6%88%91%E6%B2%A1%E6%9C%89%E7%AE%A1%EF%BC%8C%E6%B2%A1%E6%9C%89%E5%BD%B1%E5%93%8D"><span class="toc-number">2.3.</span> <span class="toc-text">sudo apt-get install libssl-dev也无法安装，我没有管，没有影响</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%80%BB%E7%BB%93"><span class="toc-number">3.</span> <span class="toc-text">总结</span></a></li></ol>
     </nav>
   </div>
 </aside>
@@ -398,25 +398,25 @@
     </div>
     <div class="article-entry marked-body" itemprop="articleBody">
       
-        <p>环境 ubuntu18.04， 正常安装<br>出现了各式各样的bug</p>
+        <p>[TOC]</p>
+<h1 id="electron-ssr安装"><a href="#electron-ssr安装" class="headerlink" title="electron-ssr安装"></a>electron-ssr安装</h1><p>环境 ubuntu18.04， 正常安装<br>出现了各式各样的bug</p>
 <p>正常的安装流程<br><a target="_blank" rel="noopener" href="https://github.com/qingshuisiyuan/electron-ssr-backup/blob/master/Ubuntu.md">https://github.com/qingshuisiyuan/electron-ssr-backup/blob/master/Ubuntu.md</a></p>
 <p>出现问题不要慌，看下面</p>
-<p>有些 apt install 命令在是无法执行的<br>比如</p>
-<hr>
-<p>在18.04下默认安装了Python 3.6.8，所以是没有python命令的<br>可以选择安装python 如<br>sudo apt install python<br>但是我这里提示</p>
+<h1 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h1><h2 id="python装不上"><a href="#python装不上" class="headerlink" title="python装不上"></a>python装不上</h2><p>有些 apt install 命令在是无法执行的</p>
+<p>在18.04下默认安装了Python 3.6.8，所以是没有python命令的</p>
+<p>可以选择安装python 如<br>sudo apt install python<br>但是我这里提示</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">下列软件包有未满足的依赖关系：</span><br><span class="line"> python : 预依赖: python-minimal (= 2.7.15~rc1-1) 但是它将不会被安装</span><br><span class="line">          依赖: python2.7 (&gt;= 2.7.15~rc1-1~) 但是它将不会被安装</span><br><span class="line">E: 无法修正错误，因为您要求某些软件包保持现状，就是它们破坏了软件包间的依赖关系。</span><br></pre></td></tr></table></figure>
 
 <p>尝试了各种安装方式无效，包括<br>sudo apt purge libpython2* 结果设置打不开了，无奈重装了系统<br>apt install aptitude 也不能解决依赖问题，甚至可能导致原有的程序出错<br>最后添加软连接解决，文章在<br><a target="_blank" rel="noopener" href="https://www.cnblogs.com/geekHao/p/12635970.html">https://www.cnblogs.com/geekHao/p/12635970.html</a><br>我第一种方法失败，第二种方法成功了</p>
-<p>接着还遇到了</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">2021-08-02 20:37:10:132 [error] 2021-08-02 20:37:10 INFO     util.py:85 loading libcrypto from libcrypto.so.1.1</span><br></pre></td></tr></table></figure>
+<h2 id="缺少-libcrypto"><a href="#缺少-libcrypto" class="headerlink" title="缺少 libcrypto"></a>缺少 libcrypto</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">2021-08-02 20:37:10:132 [error] 2021-08-02 20:37:10 INFO     util.py:85 loading libcrypto from libcrypto.so.1.1</span><br></pre></td></tr></table></figure>
 
 <p>sudo apt install libcrypto 提示</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">E: 无法定位软件包 libcrypto</span><br></pre></td></tr></table></figure>
 
-
-
 <p>看来没有<br>尝试pip3 install crypto<br>安装完但是没用<br>这个网址也试了<br><a target="_blank" rel="noopener" href="https://www.gitmemory.com/issue/qingshuisiyuan/electron-ssr-backup/26/520281383">https://www.gitmemory.com/issue/qingshuisiyuan/electron-ssr-backup/26/520281383</a><br>最后通过<br><a target="_blank" rel="noopener" href="https://github.com/qingshuisiyuan/electron-ssr-backup/blob/master/Ubuntu.md">https://github.com/qingshuisiyuan/electron-ssr-backup/blob/master/Ubuntu.md</a><br>中的<br>可选依赖：<br>sudo apt-get install libsodium-dev<br>成功<br>当然另一句</p>
-<h2 id="sudo-apt-get-install-libssl-dev也无法安装，我没有管，没有影响"><a href="#sudo-apt-get-install-libssl-dev也无法安装，我没有管，没有影响" class="headerlink" title="sudo apt-get install libssl-dev也无法安装，我没有管，没有影响"></a>sudo apt-get install libssl-dev也无法安装，我没有管，没有影响</h2><p>如果你有这个问题，可能重装系统是最好的办法，可能很多东西已经不正常了<br>最后垃圾百度，Bing yyds</p>
+<h2 id="sudo-apt-get-install-libssl-dev也无法安装，我没有管，没有影响"><a href="#sudo-apt-get-install-libssl-dev也无法安装，我没有管，没有影响" class="headerlink" title="sudo apt-get install libssl-dev也无法安装，我没有管，没有影响"></a>sudo apt-get install libssl-dev也无法安装，我没有管，没有影响</h2><p>如果你有这个问题，可能重装系统是最好的办法，可能很多东西已经不正常了</p>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>如果出现了以上问题最好还是重装系统吧，系统可能已经不正常了，否则这些bug可能只是开始</p>
+<p>最后垃圾百度，Bing yyds</p>
 
       
     </div>
