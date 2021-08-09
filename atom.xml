@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>My Blog</title>
+  
+  
+  <link href="http://www.hyaline.top/atom.xml" rel="self"/>
+  
+  <link href="http://www.hyaline.top/"/>
+  <updated>2021-08-09T13:49:59.724Z</updated>
+  <id>http://www.hyaline.top/</id>
+  
+  <author>
+    <name>wanghao</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>git 技巧</title>
+    <link href="http://www.hyaline.top/2021/08/09/git-%E6%8A%80%E5%B7%A7/"/>
+    <id>http://www.hyaline.top/2021/08/09/git-%E6%8A%80%E5%B7%A7/</id>
+    <published>2021-08-09T13:36:21.000Z</published>
+    <updated>2021-08-09T13:49:59.724Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="git-权威书籍-Pro-Git"><a href="#git-权威书籍-Pro-Git" class="headerlink" title="git 权威书籍 Pro Git"></a>git 权威书籍 Pro Git</h1><p><a href="http://git.oschina.net/progit/">Pro Git（中文版） (oschina.net)</a></p><p><img src="https://gitee.com/wangdaochuan/img-save-2/raw/master/202108092147519.png" alt="image-20210809214719422"></p><h1 id="fatal-refusing-to-merge-unrelated-histories"><a href="#fatal-refusing-to-merge-unrelated-histories" class="headerlink" title="fatal: refusing to merge unrelated histories"></a>fatal: refusing to merge unrelated histories</h1><p>你可能会在<code>git pull</code>或者<code>git push</code>中都有可能会遇到，这是因为两个分支没有取得关系。添加 –allow-unrelated-histories 参数即可</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;git-权威书籍-Pro-Git&quot;&gt;&lt;a href=&quot;#git-权威书籍-Pro-Git&quot; class=&quot;headerlink&quot; title=&quot;git 权威书籍 Pro Git&quot;&gt;&lt;/a&gt;git 权威书籍 Pro Git&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;http:</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>焊接指南</title>
+    <link href="http://www.hyaline.top/2021/08/08/%E7%84%8A%E6%8E%A5%E6%8C%87%E5%8D%97/"/>
+    <id>http://www.hyaline.top/2021/08/08/%E7%84%8A%E6%8E%A5%E6%8C%87%E5%8D%97/</id>
+    <published>2021-08-08T05:14:41.000Z</published>
+    <updated>2021-08-09T09:56:18.735Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="芯片正方向"><a href="#芯片正方向" class="headerlink" title="芯片正方向"></a>芯片正方向</h1><h2 id="ASIC芯片"><a href="#ASIC芯片" class="headerlink" title="ASIC芯片"></a>ASIC芯片</h2><p><img src="https://gitee.com/wangdaochuan/img-save-2/raw/master/202108081322592.png" alt="image-20210808132252342"></p><h2 id="二极管"><a href="#二极管" class="headerlink" title="二极管"></a>二极管</h2><p><img src="https://gitee.com/wangdaochuan/img-save-2/raw/master/202108081327178.png" alt="image-20210808132721929"></p><h1 id="焊盘绘制"><a href="#焊盘绘制" class="headerlink" title="焊盘绘制"></a>焊盘绘制</h1><h2 id="QFN"><a href="#QFN" class="headerlink" title="QFN"></a>QFN</h2><p>对于QFN这种引脚不外露的封装，焊盘在绘制时一定要长，这样会极大提高手动焊接的成功率</p><p><img src="https://gitee.com/wangdaochuan/img-save-2/raw/master/202108091750330.png" alt="image-20210809175058827"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;芯片正方向&quot;&gt;&lt;a href=&quot;#芯片正方向&quot; class=&quot;headerlink&quot; title=&quot;芯片正方向&quot;&gt;&lt;/a&gt;芯片正方向&lt;/h1&gt;&lt;h2 id=&quot;ASIC芯片&quot;&gt;&lt;a href=&quot;#ASIC芯片&quot; class=&quot;headerlink&quot; title=&quot;A</summary>
+      
+    
+    
+    
+    <category term="硬件" scheme="http://www.hyaline.top/categories/%E7%A1%AC%E4%BB%B6/"/>
+    
+    
+    <category term="焊接" scheme="http://www.hyaline.top/tags/%E7%84%8A%E6%8E%A5/"/>
+    
+    <category term="Altium Designer" scheme="http://www.hyaline.top/tags/Altium-Designer/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>happy up net</title>
+    <link href="http://www.hyaline.top/2021/08/06/happy-up-net/"/>
+    <id>http://www.hyaline.top/2021/08/06/happy-up-net/</id>
+    <published>2021-08-06T05:57:15.000Z</published>
+    <updated>2021-08-08T05:22:50.576Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://glados.rocks/pricing">glados</a>，还没试</p><p><a href="https://getlantern.org/zh_CN/index.html">lantern</a>，每个月的免费流量还是挺香的</p><p><a href="!%5Bimg%5D(file:///C:%5CUsers%5Chyaline%5CAppData%5CRoaming%5CTencent%5CQQTempSys%25W@GJ$ACOF(TYDYECOKVDYB.png)www.xlinkworld.dog">muncloud</a>,目前在用的，很好用，教程比较全</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://glados.rocks/pricing&quot;&gt;glados&lt;/a&gt;，还没试&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://getlantern.org/zh_CN/index.html&quot;&gt;lantern&lt;/a&gt;，每个月的免费流量还是挺香的&lt;</summary>
+      
+    
+    
+    
+    
+    <category term="happy" scheme="http://www.hyaline.top/tags/happy/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>算法基础</title>
+    <link href="http://www.hyaline.top/2021/08/05/%E7%AE%97%E6%B3%95%E5%9F%BA%E7%A1%80/"/>
+    <id>http://www.hyaline.top/2021/08/05/%E7%AE%97%E6%B3%95%E5%9F%BA%E7%A1%80/</id>
+    <published>2021-08-05T14:47:30.000Z</published>
+    <updated>2021-08-06T05:57:20.571Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>程序 = 数据结构+代码</p></blockquote><h1 id="时间复杂度"><a href="#时间复杂度" class="headerlink" title="时间复杂度"></a>时间复杂度</h1><p>O(1)</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;hello world&quot;</span>)</span><br></pre></td></tr></table></figure><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;hello world&quot;</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;hello world&quot;</span>)</span><br></pre></td></tr></table></figure><p>O(n)</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>:</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;hello world&quot;</span>)</span><br></pre></td></tr></table></figure><p>O(n^2)</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>:</span><br><span class="line"><span class="keyword">for</span> j <span class="keyword">in</span> <span class="built_in">range</span>:</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;hello world&quot;</span>)</span><br></pre></td></tr></table></figure><p>O(log2 n )</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">while</span> n&gt;<span class="number">1</span>:</span><br><span class="line"><span class="built_in">print</span>(n)</span><br><span class="line">n=n/<span class="number">2</span></span><br></pre></td></tr></table></figure><h1 id="空间复杂度"><a href="#空间复杂度" class="headerlink" title="空间复杂度"></a>空间复杂度</h1><p>O（1） O（n） O（mn）</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;程序 = 数据结构+代码&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;时间复杂度&quot;&gt;&lt;a href=&quot;#时间复杂度&quot; class=&quot;headerlink&quot; title=&quot;时间复杂度&quot;&gt;&lt;/a&gt;时间复杂度&lt;/h1&gt;&lt;p&gt;O(1)&lt;/p&gt;
+&lt;f</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>hexo自动化</title>
+    <link href="http://www.hyaline.top/2021/08/05/hexo%E8%87%AA%E5%8A%A8%E5%8C%96/"/>
+    <id>http://www.hyaline.top/2021/08/05/hexo%E8%87%AA%E5%8A%A8%E5%8C%96/</id>
+    <published>2021-08-05T07:40:00.000Z</published>
+    <updated>2021-08-09T16:34:45.980Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="脚本文件的编写与使用"><a href="#脚本文件的编写与使用" class="headerlink" title="脚本文件的编写与使用"></a>脚本文件的编写与使用</h1><h1 id="windows环境"><a href="#windows环境" class="headerlink" title="windows环境"></a>windows环境</h1><h2 id="bat文件"><a href="#bat文件" class="headerlink" title="bat文件"></a>bat文件</h2><h3 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">@REM 注释“@REM”，或”::“</span><br><span class="line"></span><br><span class="line">@REM 输出</span><br><span class="line">echo 你好，hexo</span><br><span class="line"></span><br><span class="line">@REM 设置变量 /p 是等待用户输入的意思 flag后面千万不要加空格！！！！</span><br><span class="line">set /p flag=</span><br><span class="line"></span><br><span class="line">@REM 使用变量</span><br><span class="line">echo %flag%</span><br><span class="line"></span><br><span class="line">@REM if 语句</span><br><span class="line">if /i %flag% == y (echo &quot;y&quot;)^</span><br><span class="line">else (echo &quot;stop the procedure!&quot;)</span><br></pre></td></tr></table></figure><h3 id="读取txt"><a href="#读取txt" class="headerlink" title="读取txt"></a>读取txt</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">for /f &quot;delims=&quot; %%i in (blog_pwd.txt) do (</span><br><span class="line">echo %%i</span><br><span class="line">)</span><br></pre></td></tr></table></figure><p>参考<a href="https://baike.baidu.com/item/bat/365230?fr=aladdin">https://baike.baidu.com/item/bat/365230?fr=aladdin</a></p><h3 id="使用-bat-进行自动化"><a href="#使用-bat-进行自动化" class="headerlink" title="使用 bat 进行自动化"></a>使用 bat 进行自动化</h3><p>将博客路径存储在 blog_pwd.txt中</p><h4 id="new-post-新建文章"><a href="#new-post-新建文章" class="headerlink" title="new post 新建文章"></a>new post 新建文章</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">@echo off</span><br><span class="line">for /f &quot;delims=&quot; %%i in (blog_pwd.txt) do (</span><br><span class="line">@REM echo %%i</span><br><span class="line">set pwd_= %%i</span><br><span class="line"></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line">echo blog categories: %pwd_%</span><br><span class="line">cd %pwd_%</span><br><span class="line">echo please enter new post name:</span><br><span class="line">set /p post_name=</span><br><span class="line">hexo new &quot;%post_name%&quot;</span><br></pre></td></tr></table></figure><h4 id="open-server-打开本地服务器"><a href="#open-server-打开本地服务器" class="headerlink" title="open server 打开本地服务器"></a>open server 打开本地服务器</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">@echo off</span><br><span class="line">@REM 采用UTF-8编码</span><br><span class="line">chcp 65001</span><br><span class="line">for /f &quot;delims=&quot; %%i in (blog_pwd.txt) do (</span><br><span class="line">@REM echo %%i</span><br><span class="line">set pwd_= %%i</span><br><span class="line"></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line">echo blog categories: %pwd_%</span><br><span class="line">cd %pwd_%</span><br><span class="line">echo 启动服务器</span><br><span class="line">hexo s</span><br><span class="line">@REM  似乎hexo 的命令执行完之后会自动退出，只好放一起了</span><br><span class="line">echo 上传完成</span><br><span class="line">pause</span><br></pre></td></tr></table></figure><h4 id="deployment-部署"><a href="#deployment-部署" class="headerlink" title="deployment 部署"></a>deployment 部署</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">@echo off</span><br><span class="line">@REM 采用UTF-8编码</span><br><span class="line">chcp 65001</span><br><span class="line">for /f &quot;delims=&quot; %%i in (blog_pwd.txt) do (</span><br><span class="line">@REM echo %%i</span><br><span class="line">set pwd_= %%i</span><br><span class="line"></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line">echo blog categories: %pwd_%</span><br><span class="line">cd %pwd_%</span><br><span class="line">echo 开始上传</span><br><span class="line">hexo d -g</span><br><span class="line">@REM  似乎hexo 的命令执行完之后会自动退出，只好放一起了</span><br><span class="line">echo 上传完成</span><br><span class="line">pause</span><br><span class="line"></span><br></pre></td></tr></table></figure><h2 id="使用UTools自动化-博客部署"><a href="#使用UTools自动化-博客部署" class="headerlink" title="使用UTools自动化 博客部署"></a>使用UTools自动化 博客部署</h2><p><a href="https://u.tools/">uTools - 你的生产力工具集</a></p><h3 id="实现效果"><a href="#实现效果" class="headerlink" title="实现效果"></a>实现效果</h3><p>实现效果如下图所示，在任意位置按鼠标中键，即可快速进行hexo 常用操作（新建文章，本地预览，部署）</p><p><img src="https://gitee.com/wangdaochuan/img-save-2/raw/master/202108092334352.png" alt="image-20210809233402178"></p><h3 id="教程"><a href="#教程" class="headerlink" title="教程"></a>教程</h3><p>核心是使用 uTools中的 <strong>快捷命令插件</strong>和<strong>偏好设置中的超级面板</strong>功能，可以先尝试在超级面板的关键字中添加<strong>快捷命令</strong>来通过鼠标中键快速呼出快捷命令的编写界面</p><p><img src="https://gitee.com/wangdaochuan/img-save-2/raw/master/202108092337536.png" alt="image-20210809233750439"></p><p><img src="https://gitee.com/wangdaochuan/img-save-2/raw/master/202108092338809.png" alt="image-20210809233820720"></p><p>编写界面如下所示</p><p><img src="https://gitee.com/wangdaochuan/img-save-2/raw/master/202108092342009.png" alt="image-20210809234228916"></p><p>点击右下角的**+**号即可添加快捷命令</p><p><img src="https://gitee.com/wangdaochuan/img-save-2/raw/master/202108092343696.png" alt="image-20210809234327637"></p><h4 id="快捷命令配置"><a href="#快捷命令配置" class="headerlink" title="快捷命令配置"></a>快捷命令配置</h4><p><img src="https://gitee.com/wangdaochuan/img-save-2/raw/master/202108092354158.png" alt="image-20210809235427053"></p><p><img src="https://gitee.com/wangdaochuan/img-save-2/raw/master/202108100005549.png" alt="image-20210810000514461"></p><h4 id="批处理代码"><a href="#批处理代码" class="headerlink" title="批处理代码"></a>批处理代码</h4><h6 id="新建文章"><a href="#新建文章" class="headerlink" title="新建文章"></a>新建文章</h6><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">@echo off</span><br><span class="line">@REM 采用UTF-8编码</span><br><span class="line">chcp 65001</span><br><span class="line"></span><br><span class="line">@REM 选择blog所在分区</span><br><span class="line">set disk=D:</span><br><span class="line"><span class="meta">%</span><span class="bash">disk%</span></span><br><span class="line"></span><br><span class="line">@REM pwd_ 填自己的 hexo 博客目录</span><br><span class="line">set pwd=D:\Project_center\hexo_learning\1</span><br><span class="line"></span><br><span class="line">echo blog categories: %pwd%</span><br><span class="line">cd %pwd%</span><br><span class="line">echo 输入新文章的名字:</span><br><span class="line">set /p post_name=</span><br><span class="line">hexo new &quot;%post_name%&quot; &amp;&amp; exit</span><br><span class="line">echo 新建完成</span><br><span class="line">exit</span><br></pre></td></tr></table></figure><p>输出设置</p><p><img src="https://gitee.com/wangdaochuan/img-save-2/raw/master/202108092357000.png" alt="image-20210809235718960"></p><p>图标文件</p><p><img src="https://gitee.com/wangdaochuan/img-save-2/raw/master/202108100026413.png" alt="new (1)"></p><h6 id="博客部署"><a href="#博客部署" class="headerlink" title="博客部署"></a>博客部署</h6><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">@echo off</span><br><span class="line">@REM 采用UTF-8编码</span><br><span class="line">chcp 65001</span><br><span class="line"></span><br><span class="line">@REM 选择blog所在分区</span><br><span class="line">set disk=D:</span><br><span class="line"><span class="meta">%</span><span class="bash">disk%</span></span><br><span class="line"></span><br><span class="line">@REM pwd_ 填自己的 hexo 博客目录</span><br><span class="line">set pwd=D:\Project_center\hexo_learning\1</span><br><span class="line"></span><br><span class="line">echo blog categories: %pwd%</span><br><span class="line">cd %pwd%</span><br><span class="line">echo 开始上传</span><br><span class="line"></span><br><span class="line">hexo g -d &amp;&amp;echo 上传完成</span><br><span class="line">@REM  似乎hexo 的命令执行完之后会自动退出，只好放一起了</span><br><span class="line">echo 上传失败</span><br><span class="line">pause</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>输出设置</p><p><img src="https://gitee.com/wangdaochuan/img-save-2/raw/master/202108100004498.png" alt="image-20210810000445434"></p><p>图标文件</p><p><img src="https://gitee.com/wangdaochuan/img-save-2/raw/master/202108100026125.png" alt="cloud upload (1)"></p><h6 id="本地预览"><a href="#本地预览" class="headerlink" title="本地预览"></a>本地预览</h6><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">@echo off</span><br><span class="line">@REM 采用UTF-8编码</span><br><span class="line">chcp 65001</span><br><span class="line">@REM 选择blog所在分区</span><br><span class="line">set disk=D:</span><br><span class="line"><span class="meta">%</span><span class="bash">disk%</span></span><br><span class="line"></span><br><span class="line">@REM pwd_ 填自己的 hexo 博客目录</span><br><span class="line">set pwd=D:\Project_center\hexo_learning\1</span><br><span class="line"></span><br><span class="line">echo blog categories: %pwd%</span><br><span class="line">cd %pwd%</span><br><span class="line"></span><br><span class="line">echo 启动服务器</span><br><span class="line">hexo s</span><br><span class="line">@REM  似乎hexo 的命令执行完之后会自动退出，只好放一起了</span><br></pre></td></tr></table></figure><p>输出设置</p><p><img src="https://gitee.com/wangdaochuan/img-save-2/raw/master/202108100025229.png" alt="image-20210810002533152"></p><p>图标文件</p><p><img src="https://gitee.com/wangdaochuan/img-save-2/raw/master/202108100026760.png" alt="preview"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;脚本文件的编写与使用&quot;&gt;&lt;a href=&quot;#脚本文件的编写与使用&quot; class=&quot;headerlink&quot; title=&quot;脚本文件的编写与使用&quot;&gt;&lt;/a&gt;脚本文件的编写与使用&lt;/h1&gt;&lt;h1 id=&quot;windows环境&quot;&gt;&lt;a href=&quot;#windows环境&quot; c</summary>
+      
+    
+    
+    
+    <category term="博客搭建" scheme="http://www.hyaline.top/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+    
+    <category term="hexo" scheme="http://www.hyaline.top/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vs code 添加右键菜单</title>
+    <link href="http://www.hyaline.top/2021/08/05/vs-code-%E6%B7%BB%E5%8A%A0%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95/"/>
+    <id>http://www.hyaline.top/2021/08/05/vs-code-%E6%B7%BB%E5%8A%A0%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95/</id>
+    <published>2021-08-05T06:02:13.000Z</published>
+    <updated>2021-08-05T06:10:15.246Z</updated>
+    
+    <content type="html"><![CDATA[<p>任意位置新建一个reg文件，可以命名为1.reg</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">Windows Registry Editor Version 5.00</span><br><span class="line">; 桌面右键添加</span><br><span class="line">[HKEY_CLASSES_ROOT\*\shell\VSCode]</span><br><span class="line">@=&quot;Open with Code&quot;</span><br><span class="line">&quot;Icon&quot;=&quot;D:\\NEW_software\\Microsoft VS Code\\Microsoft VS Code\\Code.exe&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\*\shell\VSCode\command]</span><br><span class="line">@=&quot;\&quot;D:\\NEW_software\\Microsoft VS Code\\Microsoft VS Code\\Code.exe\&quot; \&quot;%1\&quot;&quot;</span><br><span class="line"></span><br><span class="line">Windows Registry Editor Version 5.00</span><br><span class="line">; 文件右键添加</span><br><span class="line">[HKEY_CLASSES_ROOT\Directory\shell\VSCode]</span><br><span class="line">@=&quot;Open with Code&quot;</span><br><span class="line">&quot;Icon&quot;=&quot;D:\\NEW_software\\Microsoft VS Code\\Microsoft VS Code\\Code.exe&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\Directory\shell\VSCode\command]</span><br><span class="line">@=&quot;\&quot;D:\\NEW_software\\Microsoft VS Code\\Microsoft VS Code\\Code.exe\&quot; \&quot;%V\&quot;&quot;</span><br><span class="line"></span><br><span class="line">Windows Registry Editor Version 5.00</span><br><span class="line">; 文件夹背景位置右键添加</span><br><span class="line">[HKEY_CLASSES_ROOT\Directory\Background\shell\VSCode]</span><br><span class="line">@=&quot;Open with Code&quot;</span><br><span class="line">&quot;Icon&quot;=&quot;D:\\NEW_software\\Microsoft VS Code\\Microsoft VS Code\\Code.exe&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\Directory\Background\shell\VSCode\command]</span><br><span class="line">@=&quot;\&quot;D:\\NEW_software\\Microsoft VS Code\\Microsoft VS Code\\Code.exe\&quot; \&quot;%V\&quot;&quot;</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;任意位置新建一个reg文件，可以命名为1.reg&lt;/p&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span </summary>
+      
+    
+    
+    
+    <category term="windows技巧" scheme="http://www.hyaline.top/categories/windows%E6%8A%80%E5%B7%A7/"/>
+    
+    
+    <category term="vs code" scheme="http://www.hyaline.top/tags/vs-code/"/>
+    
+    <category term="添加右键菜单" scheme="http://www.hyaline.top/tags/%E6%B7%BB%E5%8A%A0%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo 必备知识</title>
+    <link href="http://www.hyaline.top/2021/08/03/hexo-%E5%BF%85%E5%A4%87%E7%9F%A5%E8%AF%86/"/>
+    <id>http://www.hyaline.top/2021/08/03/hexo-%E5%BF%85%E5%A4%87%E7%9F%A5%E8%AF%86/</id>
+    <published>2021-08-03T15:07:53.000Z</published>
+    <updated>2021-08-05T10:44:27.205Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="hexo-官网"><a href="#hexo-官网" class="headerlink" title="hexo 官网"></a>hexo 官网</h1><p>hexo官网文档是比较全的，而且有中文版，比较友好，<a href="https://hexo.io/zh-cn/docs/index.html">https://hexo.io/zh-cn/docs/index.html</a> ，而且有中文的入门视频，但是在youtube上，可能观看不是很方便，下面的是B站的版本，和YouTube上一样</p><h1 id="hexo-入门视频"><a href="#hexo-入门视频" class="headerlink" title="hexo 入门视频"></a>hexo 入门视频</h1><p>一个UP主的视频，一共七讲可以快速入门一下</p><div style="position:relative; padding-bottom:75%; width:100%; height:0">    <iframe src="//player.bilibili.com/player.html?aid=36553965&bvid=BV1At411y7gh&cid=64187443&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe></div><h1 id="hexo必备命令"><a href="#hexo必备命令" class="headerlink" title="hexo必备命令"></a>hexo必备命令</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo d</span><br><span class="line">hexo s</span><br><span class="line">hexo clean</span><br></pre></td></tr></table></figure><p>详细看：<a href="https://hexo.io/docs/commands.html">https://hexo.io/docs/commands.html</a></p><h1 id="npm下载太慢，试试淘宝镜像"><a href="#npm下载太慢，试试淘宝镜像" class="headerlink" title="npm下载太慢，试试淘宝镜像"></a>npm下载太慢，试试淘宝镜像</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm config set registry https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure><p>参考网址：<a href="https://segmentfault.com/a/1190000027083723">https://segmentfault.com/a/1190000027083723</a></p><h1 id="pure主题搭建"><a href="#pure主题搭建" class="headerlink" title="pure主题搭建"></a>pure主题搭建</h1><p>这是我用的主题</p><p>参考：<a href="https://github.com/cofess/hexo-theme-pure/blob/master/README.cn.md">https://github.com/cofess/hexo-theme-pure/blob/master/README.cn.md</a></p><h1 id="图床搭建"><a href="#图床搭建" class="headerlink" title="图床搭建"></a>图床搭建</h1><p>网站上的图片需要有一个网络地址，一般都会选择图床，图床有各式各样的，下面推荐一种picgo+typora+gitee的方式，实现图片自动上传，全平台（win，mac，linux）可用</p><p>参考<a href="/2021/08/03/typora-picGo-gitee-%E5%A5%BD%E7%94%A8%E7%9A%84markdown/" title="图床搭建教程">图床搭建教程</a></p><h1 id="如何引用博客内文章"><a href="#如何引用博客内文章" class="headerlink" title="如何引用博客内文章"></a>如何引用博客内文章</h1><p>在文章内添加如下代码</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% post_link 文章名 %&#125;</span><br></pre></td></tr></table></figure><p>或者</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% post_link 文章名 Hello %&#125;</span><br></pre></td></tr></table></figure><p>参考：<a href="https://www.jianshu.com/p/92f56767b67b">https://www.jianshu.com/p/92f56767b67b</a></p><h1 id="更换域名后无法加载图片"><a href="#更换域名后无法加载图片" class="headerlink" title="更换域名后无法加载图片"></a>更换域名后无法加载图片</h1><p>在source中新建CNAME文件（没有后缀），文件中添加自己的域名</p><h1 id="如何添加-B站视频"><a href="#如何添加-B站视频" class="headerlink" title="如何添加 B站视频"></a>如何添加 B站视频</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&#123;% raw %&#125;</span><br><span class="line">&lt;div style=&quot;position:relative; padding-bottom:75%; width:100%; height:0&quot;&gt;</span><br><span class="line">    &lt;iframe src=&quot;//player.bilibili.com/player.html?aid=36553965&amp;bvid=BV1At411y7gh&amp;cid=64187443&amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot; style=&quot;position:absolute; height: 100%; width: 100%;&quot;&gt;&lt;/iframe&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line">&#123;% endraw%&#125;</span><br></pre></td></tr></table></figure><p>参考</p><p><a href="https://baijiahao.baidu.com/s?id=1623914788952059989&wfr=spider&for=pc">Hexo博客中加入B站视频播放器 (baidu.com)</a></p><p><a href="https://blog.csdn.net/weixin_41216356/article/details/106911233">(68条消息) 如何在Hugo/Hexo博客中插入响应式Bilibili视频代码块_知识星海-CSDN博客</a></p><h1 id="hexo-自动化"><a href="#hexo-自动化" class="headerlink" title="hexo 自动化"></a>hexo 自动化</h1><p>参考<a href="/2021/08/05/hexo%E8%87%AA%E5%8A%A8%E5%8C%96/" title="hexo自动化">hexo自动化</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;hexo-官网&quot;&gt;&lt;a href=&quot;#hexo-官网&quot; class=&quot;headerlink&quot; title=&quot;hexo 官网&quot;&gt;&lt;/a&gt;hexo 官网&lt;/h1&gt;&lt;p&gt;hexo官网文档是比较全的，而且有中文版，比较友好，&lt;a href=&quot;https://hexo.io</summary>
+      
+    
+    
+    
+    <category term="博客搭建" scheme="http://www.hyaline.top/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+    
+    <category term="hexo" scheme="http://www.hyaline.top/tags/hexo/"/>
+    
+    <category term="hexo技巧" scheme="http://www.hyaline.top/tags/hexo%E6%8A%80%E5%B7%A7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>typora+picGo+gitee = 好用的markdown</title>
+    <link href="http://www.hyaline.top/2021/08/03/typora-picGo-gitee-%E5%A5%BD%E7%94%A8%E7%9A%84markdown/"/>
+    <id>http://www.hyaline.top/2021/08/03/typora-picGo-gitee-%E5%A5%BD%E7%94%A8%E7%9A%84markdown/</id>
+    <published>2021-08-03T15:06:17.000Z</published>
+    <updated>2021-08-09T17:50:13.440Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="typora-picGo-gitee-好用的markdown"><a href="#typora-picGo-gitee-好用的markdown" class="headerlink" title="typora+picGo+gitee = 好用的markdown"></a>typora+picGo+gitee = 好用的markdown</h1><h2 id="软件下载及安装"><a href="#软件下载及安装" class="headerlink" title="软件下载及安装"></a>软件下载及安装</h2><p>下面提供软件官网或github地址，和百度云地址，方便大家下载</p><h3 id="typora"><a href="#typora" class="headerlink" title="typora"></a>typora</h3><p><a href="https://www.typora.io/">Typora</a>是一款优雅的markdown编辑器，mac，win，linux均可用。</p><blockquote><p>链接：<a href="https://pan.baidu.com/s/1btVW8sH99DGlP7F6KZnvLQ">https://pan.baidu.com/s/1btVW8sH99DGlP7F6KZnvLQ</a><br>提取码：hy8m </p></blockquote><h3 id="picgo"><a href="#picgo" class="headerlink" title="picgo"></a>picgo</h3><p><a href="https://github.com/Molunerfinn/PicGo/releases">PicGo</a>实现自动上传图片并返回markdown格式的图片url，这是自动上传的，也就是在Typora中插入图片就自动帮你上传替换图片的url，对于我们用户是透明的，十分舒服，也是mac，win，linux均可用。</p><blockquote><p>链接：<a href="https://pan.baidu.com/s/1xmB6j6YtycNGbdrwbdqHSA">https://pan.baidu.com/s/1xmB6j6YtycNGbdrwbdqHSA</a><br>提取码：3ja5 </p></blockquote><h3 id="gitee"><a href="#gitee" class="headerlink" title="gitee"></a>gitee</h3><p><a href="https://gitee.com/">Gitee</a>是国内版的Github，功能跟Github基本一样，主要是在国内访问非常快，作为图床和笔记文件存放仓库非常合适</p><h3 id="Node-js"><a href="#Node-js" class="headerlink" title="Node.js"></a>Node.js</h3><p>在gicgo中下载gitee插件时会用到，不安装无法使用picgo，不过如果是为了hexo，那应该已经有了，同样是全平台可用</p><blockquote><p>链接：<a href="https://pan.baidu.com/s/1WmBXZmJNW5FLIIbZtQNcQg">https://pan.baidu.com/s/1WmBXZmJNW5FLIIbZtQNcQg</a><br>提取码：rqkb </p></blockquote><h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>安装十分简单，要注意的是picgo的路径一会用的到</p><h2 id="配置步骤"><a href="#配置步骤" class="headerlink" title="配置步骤"></a>配置步骤</h2><h3 id="在-gitee-上创建一个仓库来当图床"><a href="#在-gitee-上创建一个仓库来当图床" class="headerlink" title="在 gitee 上创建一个仓库来当图床"></a>在 gitee 上创建一个仓库来当图床</h3><p>1.注册 gitee 账号并创建一个仓库当图床，这里仓库名起了img（我用的是img-save），注意一定<strong>勾选Readme初始化</strong></p><p><img src="https://gitee.com/wangdaochuan/img-save/raw/master/img/20210203182941.png" alt="image-20200413213232234"></p><p>2.<strong>生成私人令牌</strong></p><p>进入设置，如下图，（生成的令牌注意保存）</p><p><img src="https://gitee.com/wangdaochuan/img-save-2/raw/master/202108041234064.png" alt="image-20200413214032380"></p><p><img src="https://gitee.com/wangdaochuan/img-save-2/raw/master/202108041235249.png"></p><p><img src="https://gitee.com/wangdaochuan/img-save/raw/master//img/20210203182158.png" alt="image-20210203182158683"></p><p><strong>（注：令牌只会显示一次，如果不复制的话，就只能重新修改令牌，步骤：修改 –&gt; 重新生成令牌）</strong></p><h3 id="Picgo的配置"><a href="#Picgo的配置" class="headerlink" title="Picgo的配置"></a>Picgo的配置</h3><ol><li>打开picgo（可能打开后没看到界面，看看右下角有没有picgo图标），之后如下所示安装插件，有两个，安装第一个</li></ol><p><img src="https://gitee.com/wangdaochuan/img-save-2/raw/master/202108041236756.png" alt="image-20210804111130723"></p><ol start="2"><li>安装完之后 点击<strong>图床设置-&gt; gitee图床</strong>进行对应配置：</li></ol><p><img src="https://gitee.com/wangdaochuan/img-save-2/raw/master/202108041236212.png" alt="image-20210804111207893"></p><p>要填的内容含义如下所示</p><p><img src="https://gitee.com/wangdaochuan/img-save/raw/master//img/20210203182813.png" alt="image-20210203180156508"></p><p>我这里在在根目录下专门建了一个文件夹（img）用来存图片<img src="https://gitee.com/wangdaochuan/img-save/raw/master/img/20210203183456.png" alt="image-20210203183456011"></p><p>因此我的设置如下所示（打开后看不到图床设置，卡了而已）</p><p><img src="https://gitee.com/wangdaochuan/img-save/raw/master/img/20210203183117.png" alt="image-20210203183117657"></p><ol start="3"><li>最后注意设置一下时间戳重命名，不然遇到相同的图片名会很尴尬（上传失败）</li></ol><p><img src="https://gitee.com/wangdaochuan/img-save/raw/master/img/20210203183558.png" alt="image-20210203181821254"></p><h3 id="typora配置"><a href="#typora配置" class="headerlink" title="typora配置"></a>typora配置</h3><ol><li>在typora中点击 <strong>文件-&gt;偏好设置</strong> ,进行如下图所示设置完成后注意验证能否上传</li></ol><p><img src="https://gitee.com/wangdaochuan/img-save/raw/master//img/image-20210203180834744.png" alt="image-20210203180834744"></p><p><img src="https://gitee.com/wangdaochuan/img-save/raw/master//img/20210203181947.png" alt="image-20210203181947750"></p><p>上传过程和上传成功后会有提示</p><p><img src="https://gitee.com/wangdaochuan/img-save/raw/master//img/20210203181958.png" alt="image-20210203181958743"></p><p><img src="https://gitee.com/wangdaochuan/img-save/raw/master//img/20210203182010.png" alt="image-20210203182010277"></p><p>此时你的typora就可以自动上传了</p><h1 id="可能遇到的问题"><a href="#可能遇到的问题" class="headerlink" title="可能遇到的问题"></a>可能遇到的问题</h1><h2 id="上传成功后无法预览图片"><a href="#上传成功后无法预览图片" class="headerlink" title="上传成功后无法预览图片"></a>上传成功后无法预览图片</h2><p>码云要求图片大于1M时需要登陆查看，看看能不能压缩一下图片质量，或者裁剪一下</p><h2 id="明明很小的图却很大体积"><a href="#明明很小的图却很大体积" class="headerlink" title="明明很小的图却很大体积"></a>明明很小的图却很大体积</h2><p>可能是后期添加的文字的影响，将添加完文字的图片重新截图即可</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;typora-picGo-gitee-好用的markdown&quot;&gt;&lt;a href=&quot;#typora-picGo-gitee-好用的markdown&quot; class=&quot;headerlink&quot; title=&quot;typora+picGo+gitee = 好用的markdown</summary>
+      
+    
+    
+    
+    <category term="博客搭建" scheme="http://www.hyaline.top/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+    
+    <category term="picgo" scheme="http://www.hyaline.top/tags/picgo/"/>
+    
+    <category term="typora" scheme="http://www.hyaline.top/tags/typora/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>树莓派基础</title>
+    <link href="http://www.hyaline.top/2021/08/03/%E6%A0%91%E8%8E%93%E6%B4%BE%E5%9F%BA%E7%A1%80/"/>
+    <id>http://www.hyaline.top/2021/08/03/%E6%A0%91%E8%8E%93%E6%B4%BE%E5%9F%BA%E7%A1%80/</id>
+    <published>2021-08-03T14:57:10.000Z</published>
+    <updated>2021-08-03T15:02:43.152Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="树莓派基础"><a href="#树莓派基础" class="headerlink" title="树莓派基础"></a>树莓派基础</h1><p>查看系统位数</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">file /lib/systemd/systemd</span><br></pre></td></tr></table></figure><p>安装deb</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dpkg -i ****.deb</span><br></pre></td></tr></table></figure><p>自启动文件</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/etc/rc.local</span><br></pre></td></tr></table></figure><p>docker 上跑mysql<br><a href="https://www.cnblogs.com/zhaopei/p/11736135.html#autoid-2-0">https://www.cnblogs.com/zhaopei/p/11736135.html#autoid-2-0</a></p><p>退出bash（bash 是shell 的一种）<br>ctrl+d</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># virtualenv</span><br><span class="line">apt install virthualenv</span><br><span class="line">virtualenv --no-site-packages venv #创建一个没有任何包的环境</span><br><span class="line">virtualenv -p /usr/bin/python3.7 env</span><br><span class="line">source venv/bin/activate #进入环境</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>mysql</p><p>varvhar 和 char ：</p><p>varchar 是边长只需规定最大长度；（0-65535）</p><p>char 是定长；（0-255）会补空格</p><p>table 名不能全是数字</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;树莓派基础&quot;&gt;&lt;a href=&quot;#树莓派基础&quot; class=&quot;headerlink&quot; title=&quot;树莓派基础&quot;&gt;&lt;/a&gt;树莓派基础&lt;/h1&gt;&lt;p&gt;查看系统位数&lt;/p&gt;
+&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td </summary>
+      
+    
+    
+    
+    <category term="ubuntu 安装" scheme="http://www.hyaline.top/categories/ubuntu-%E5%AE%89%E8%A3%85/"/>
+    
+    
+    <category term="linux" scheme="http://www.hyaline.top/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>electron-ssr 踩坑</title>
+    <link href="http://www.hyaline.top/2021/08/03/electron-ssr-%E8%B8%A9%E5%9D%91/"/>
+    <id>http://www.hyaline.top/2021/08/03/electron-ssr-%E8%B8%A9%E5%9D%91/</id>
+    <published>2021-08-03T09:48:33.000Z</published>
+    <updated>2021-08-05T05:40:44.980Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="electron-ssr安装"><a href="#electron-ssr安装" class="headerlink" title="electron-ssr安装"></a>electron-ssr安装</h1><p>环境 ubuntu18.04， 正常安装<br>出现了各式各样的bug</p><p>正常的安装流程<br><a href="https://github.com/qingshuisiyuan/electron-ssr-backup/blob/master/Ubuntu.md">https://github.com/qingshuisiyuan/electron-ssr-backup/blob/master/Ubuntu.md</a></p><p>出现问题不要慌，看下面</p><h1 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h1><h2 id="python装不上"><a href="#python装不上" class="headerlink" title="python装不上"></a>python装不上</h2><p>有些 apt install 命令在是无法执行的</p><p>在18.04下默认安装了Python 3.6.8，所以是没有python命令的</p><p>可以选择安装python 如<br>sudo apt install python<br>但是我这里提示</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">下列软件包有未满足的依赖关系：</span><br><span class="line"> python : 预依赖: python-minimal (= 2.7.15~rc1-1) 但是它将不会被安装</span><br><span class="line">          依赖: python2.7 (&gt;= 2.7.15~rc1-1~) 但是它将不会被安装</span><br><span class="line">E: 无法修正错误，因为您要求某些软件包保持现状，就是它们破坏了软件包间的依赖关系。</span><br></pre></td></tr></table></figure><p>尝试了各种安装方式无效，包括<br>sudo apt purge libpython2* 结果设置打不开了，无奈重装了系统<br>apt install aptitude 也不能解决依赖问题，甚至可能导致原有的程序出错<br>最后添加软连接解决，文章在<br><a href="https://www.cnblogs.com/geekHao/p/12635970.html">https://www.cnblogs.com/geekHao/p/12635970.html</a><br>我第一种方法失败，第二种方法成功了</p><h2 id="缺少-libcrypto"><a href="#缺少-libcrypto" class="headerlink" title="缺少 libcrypto"></a>缺少 libcrypto</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">2021-08-02 20:37:10:132 [error] 2021-08-02 20:37:10 INFO     util.py:85 loading libcrypto from libcrypto.so.1.1</span><br></pre></td></tr></table></figure><p>sudo apt install libcrypto 提示</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">E: 无法定位软件包 libcrypto</span><br></pre></td></tr></table></figure><p>看来没有<br>尝试pip3 install crypto<br>安装完但是没用<br>这个网址也试了<br><a href="https://www.gitmemory.com/issue/qingshuisiyuan/electron-ssr-backup/26/520281383">https://www.gitmemory.com/issue/qingshuisiyuan/electron-ssr-backup/26/520281383</a><br>最后通过<br><a href="https://github.com/qingshuisiyuan/electron-ssr-backup/blob/master/Ubuntu.md">https://github.com/qingshuisiyuan/electron-ssr-backup/blob/master/Ubuntu.md</a><br>中的<br>可选依赖：<br>sudo apt-get install libsodium-dev<br>成功<br>当然另一句</p><h2 id="sudo-apt-get-install-libssl-dev也无法安装"><a href="#sudo-apt-get-install-libssl-dev也无法安装" class="headerlink" title="sudo apt-get install libssl-dev也无法安装"></a>sudo apt-get install libssl-dev也无法安装</h2><p>我没有管，好像没有影响ssr</p><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>如果出现了以上问题最好还是重装系统吧，系统可能已经不正常了，否则这些bug可能只是开始</p><p>最后垃圾百度，Bing yyds</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;electron-ssr安装&quot;&gt;&lt;a href=&quot;#electron-ssr安装&quot; class=&quot;headerlink&quot; title=&quot;electron-ssr安装&quot;&gt;&lt;/a&gt;electron-ssr安装&lt;/h1&gt;&lt;p&gt;环境 ubuntu18.04， 正常安装&lt;b</summary>
+      
+    
+    
+    
+    <category term="ubuntu 安装" scheme="http://www.hyaline.top/categories/ubuntu-%E5%AE%89%E8%A3%85/"/>
+    
+    
+    <category term="ssr" scheme="http://www.hyaline.top/tags/ssr/"/>
+    
+    <category term="linux" scheme="http://www.hyaline.top/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://www.hyaline.top/2021/08/03/hello-world/"/>
+    <id>http://www.hyaline.top/2021/08/03/hello-world/</id>
+    <published>2021-08-02T16:00:16.010Z</published>
+    <updated>2021-08-04T15:48:35.993Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    <category term="博客搭建" scheme="http://www.hyaline.top/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+    
+    <category term="hexo" scheme="http://www.hyaline.top/tags/hexo/"/>
+    
+    <category term="hexo技巧" scheme="http://www.hyaline.top/tags/hexo%E6%8A%80%E5%B7%A7/"/>
+    
+  </entry>
+  
+</feed>
