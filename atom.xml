@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>My Blog</title>
-  <icon>http://www.hyaline.top/images/avatar2.jpg</icon>
+  <icon>http://blog.hyaline.top/images/avatar2.jpg</icon>
   
-  <link href="http://www.hyaline.top/atom.xml" rel="self"/>
+  <link href="http://blog.hyaline.top/atom.xml" rel="self"/>
   
-  <link href="http://www.hyaline.top/"/>
-  <updated>2021-08-09T13:49:59.724Z</updated>
-  <id>http://www.hyaline.top/</id>
+  <link href="http://blog.hyaline.top/"/>
+  <updated>2021-08-13T15:24:06.564Z</updated>
+  <id>http://blog.hyaline.top/</id>
   
   <author>
     <name>wanghao</name>
@@ -17,9 +17,22 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>linux 解压缩</title>
+    <link href="http://blog.hyaline.top/2021/08/13/linux-%E8%A7%A3%E5%8E%8B%E7%BC%A9/"/>
+    <id>http://blog.hyaline.top/2021/08/13/linux-%E8%A7%A3%E5%8E%8B%E7%BC%A9/</id>
+    <published>2021-08-13T15:24:06.000Z</published>
+    <updated>2021-08-13T15:24:06.564Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>git 技巧</title>
-    <link href="http://www.hyaline.top/2021/08/09/git-%E6%8A%80%E5%B7%A7/"/>
-    <id>http://www.hyaline.top/2021/08/09/git-%E6%8A%80%E5%B7%A7/</id>
+    <link href="http://blog.hyaline.top/2021/08/09/git-%E6%8A%80%E5%B7%A7/"/>
+    <id>http://blog.hyaline.top/2021/08/09/git-%E6%8A%80%E5%B7%A7/</id>
     <published>2021-08-09T13:36:21.000Z</published>
     <updated>2021-08-09T13:49:59.724Z</updated>
     
@@ -39,8 +52,8 @@
   
   <entry>
     <title>焊接指南</title>
-    <link href="http://www.hyaline.top/2021/08/08/%E7%84%8A%E6%8E%A5%E6%8C%87%E5%8D%97/"/>
-    <id>http://www.hyaline.top/2021/08/08/%E7%84%8A%E6%8E%A5%E6%8C%87%E5%8D%97/</id>
+    <link href="http://blog.hyaline.top/2021/08/08/%E7%84%8A%E6%8E%A5%E6%8C%87%E5%8D%97/"/>
+    <id>http://blog.hyaline.top/2021/08/08/%E7%84%8A%E6%8E%A5%E6%8C%87%E5%8D%97/</id>
     <published>2021-08-08T05:14:41.000Z</published>
     <updated>2021-08-09T09:56:18.735Z</updated>
     
@@ -55,19 +68,19 @@
     
     
     
-    <category term="硬件" scheme="http://www.hyaline.top/categories/%E7%A1%AC%E4%BB%B6/"/>
+    <category term="硬件" scheme="http://blog.hyaline.top/categories/%E7%A1%AC%E4%BB%B6/"/>
     
     
-    <category term="焊接" scheme="http://www.hyaline.top/tags/%E7%84%8A%E6%8E%A5/"/>
+    <category term="焊接" scheme="http://blog.hyaline.top/tags/%E7%84%8A%E6%8E%A5/"/>
     
-    <category term="Altium Designer" scheme="http://www.hyaline.top/tags/Altium-Designer/"/>
+    <category term="Altium Designer" scheme="http://blog.hyaline.top/tags/Altium-Designer/"/>
     
   </entry>
   
   <entry>
     <title>happy up net</title>
-    <link href="http://www.hyaline.top/2021/08/06/happy-up-net/"/>
-    <id>http://www.hyaline.top/2021/08/06/happy-up-net/</id>
+    <link href="http://blog.hyaline.top/2021/08/06/happy-up-net/"/>
+    <id>http://blog.hyaline.top/2021/08/06/happy-up-net/</id>
     <published>2021-08-06T05:57:15.000Z</published>
     <updated>2021-08-08T05:22:50.576Z</updated>
     
@@ -84,14 +97,14 @@
     
     
     
-    <category term="happy" scheme="http://www.hyaline.top/tags/happy/"/>
+    <category term="happy" scheme="http://blog.hyaline.top/tags/happy/"/>
     
   </entry>
   
   <entry>
     <title>算法基础</title>
-    <link href="http://www.hyaline.top/2021/08/05/%E7%AE%97%E6%B3%95%E5%9F%BA%E7%A1%80/"/>
-    <id>http://www.hyaline.top/2021/08/05/%E7%AE%97%E6%B3%95%E5%9F%BA%E7%A1%80/</id>
+    <link href="http://blog.hyaline.top/2021/08/05/%E7%AE%97%E6%B3%95%E5%9F%BA%E7%A1%80/"/>
+    <id>http://blog.hyaline.top/2021/08/05/%E7%AE%97%E6%B3%95%E5%9F%BA%E7%A1%80/</id>
     <published>2021-08-05T14:47:30.000Z</published>
     <updated>2021-08-06T05:57:20.571Z</updated>
     
@@ -114,8 +127,8 @@
   
   <entry>
     <title>hexo自动化</title>
-    <link href="http://www.hyaline.top/2021/08/05/hexo%E8%87%AA%E5%8A%A8%E5%8C%96/"/>
-    <id>http://www.hyaline.top/2021/08/05/hexo%E8%87%AA%E5%8A%A8%E5%8C%96/</id>
+    <link href="http://blog.hyaline.top/2021/08/05/hexo%E8%87%AA%E5%8A%A8%E5%8C%96/"/>
+    <id>http://blog.hyaline.top/2021/08/05/hexo%E8%87%AA%E5%8A%A8%E5%8C%96/</id>
     <published>2021-08-05T07:40:00.000Z</published>
     <updated>2021-08-09T16:34:45.980Z</updated>
     
@@ -130,17 +143,17 @@
     
     
     
-    <category term="博客搭建" scheme="http://www.hyaline.top/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    <category term="博客搭建" scheme="http://blog.hyaline.top/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
     
-    <category term="hexo" scheme="http://www.hyaline.top/tags/hexo/"/>
+    <category term="hexo" scheme="http://blog.hyaline.top/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title>vs code 添加右键菜单</title>
-    <link href="http://www.hyaline.top/2021/08/05/vs-code-%E6%B7%BB%E5%8A%A0%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95/"/>
-    <id>http://www.hyaline.top/2021/08/05/vs-code-%E6%B7%BB%E5%8A%A0%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95/</id>
+    <link href="http://blog.hyaline.top/2021/08/05/vs-code-%E6%B7%BB%E5%8A%A0%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95/"/>
+    <id>http://blog.hyaline.top/2021/08/05/vs-code-%E6%B7%BB%E5%8A%A0%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95/</id>
     <published>2021-08-05T06:02:13.000Z</published>
     <updated>2021-08-05T06:10:15.246Z</updated>
     
@@ -156,19 +169,19 @@
     
     
     
-    <category term="windows技巧" scheme="http://www.hyaline.top/categories/windows%E6%8A%80%E5%B7%A7/"/>
+    <category term="windows技巧" scheme="http://blog.hyaline.top/categories/windows%E6%8A%80%E5%B7%A7/"/>
     
     
-    <category term="vs code" scheme="http://www.hyaline.top/tags/vs-code/"/>
+    <category term="vs code" scheme="http://blog.hyaline.top/tags/vs-code/"/>
     
-    <category term="添加右键菜单" scheme="http://www.hyaline.top/tags/%E6%B7%BB%E5%8A%A0%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95/"/>
+    <category term="添加右键菜单" scheme="http://blog.hyaline.top/tags/%E6%B7%BB%E5%8A%A0%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95/"/>
     
   </entry>
   
   <entry>
     <title>hexo 必备知识</title>
-    <link href="http://www.hyaline.top/2021/08/03/hexo-%E5%BF%85%E5%A4%87%E7%9F%A5%E8%AF%86/"/>
-    <id>http://www.hyaline.top/2021/08/03/hexo-%E5%BF%85%E5%A4%87%E7%9F%A5%E8%AF%86/</id>
+    <link href="http://blog.hyaline.top/2021/08/03/hexo-%E5%BF%85%E5%A4%87%E7%9F%A5%E8%AF%86/"/>
+    <id>http://blog.hyaline.top/2021/08/03/hexo-%E5%BF%85%E5%A4%87%E7%9F%A5%E8%AF%86/</id>
     <published>2021-08-03T15:07:53.000Z</published>
     <updated>2021-08-05T10:44:27.205Z</updated>
     
@@ -183,19 +196,19 @@
     
     
     
-    <category term="博客搭建" scheme="http://www.hyaline.top/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    <category term="博客搭建" scheme="http://blog.hyaline.top/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
     
-    <category term="hexo" scheme="http://www.hyaline.top/tags/hexo/"/>
+    <category term="hexo" scheme="http://blog.hyaline.top/tags/hexo/"/>
     
-    <category term="hexo技巧" scheme="http://www.hyaline.top/tags/hexo%E6%8A%80%E5%B7%A7/"/>
+    <category term="hexo技巧" scheme="http://blog.hyaline.top/tags/hexo%E6%8A%80%E5%B7%A7/"/>
     
   </entry>
   
   <entry>
     <title>typora+picGo+gitee = 好用的markdown</title>
-    <link href="http://www.hyaline.top/2021/08/03/typora-picGo-gitee-%E5%A5%BD%E7%94%A8%E7%9A%84markdown/"/>
-    <id>http://www.hyaline.top/2021/08/03/typora-picGo-gitee-%E5%A5%BD%E7%94%A8%E7%9A%84markdown/</id>
+    <link href="http://blog.hyaline.top/2021/08/03/typora-picGo-gitee-%E5%A5%BD%E7%94%A8%E7%9A%84markdown/"/>
+    <id>http://blog.hyaline.top/2021/08/03/typora-picGo-gitee-%E5%A5%BD%E7%94%A8%E7%9A%84markdown/</id>
     <published>2021-08-03T15:06:17.000Z</published>
     <updated>2021-08-09T17:50:13.440Z</updated>
     
@@ -210,19 +223,19 @@
     
     
     
-    <category term="博客搭建" scheme="http://www.hyaline.top/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    <category term="博客搭建" scheme="http://blog.hyaline.top/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
     
-    <category term="picgo" scheme="http://www.hyaline.top/tags/picgo/"/>
+    <category term="picgo" scheme="http://blog.hyaline.top/tags/picgo/"/>
     
-    <category term="typora" scheme="http://www.hyaline.top/tags/typora/"/>
+    <category term="typora" scheme="http://blog.hyaline.top/tags/typora/"/>
     
   </entry>
   
   <entry>
     <title>树莓派基础</title>
-    <link href="http://www.hyaline.top/2021/08/03/%E6%A0%91%E8%8E%93%E6%B4%BE%E5%9F%BA%E7%A1%80/"/>
-    <id>http://www.hyaline.top/2021/08/03/%E6%A0%91%E8%8E%93%E6%B4%BE%E5%9F%BA%E7%A1%80/</id>
+    <link href="http://blog.hyaline.top/2021/08/03/%E6%A0%91%E8%8E%93%E6%B4%BE%E5%9F%BA%E7%A1%80/"/>
+    <id>http://blog.hyaline.top/2021/08/03/%E6%A0%91%E8%8E%93%E6%B4%BE%E5%9F%BA%E7%A1%80/</id>
     <published>2021-08-03T14:57:10.000Z</published>
     <updated>2021-08-03T15:02:43.152Z</updated>
     
@@ -238,17 +251,17 @@
     
     
     
-    <category term="ubuntu 安装" scheme="http://www.hyaline.top/categories/ubuntu-%E5%AE%89%E8%A3%85/"/>
+    <category term="ubuntu 安装" scheme="http://blog.hyaline.top/categories/ubuntu-%E5%AE%89%E8%A3%85/"/>
     
     
-    <category term="linux" scheme="http://www.hyaline.top/tags/linux/"/>
+    <category term="linux" scheme="http://blog.hyaline.top/tags/linux/"/>
     
   </entry>
   
   <entry>
     <title>electron-ssr 踩坑</title>
-    <link href="http://www.hyaline.top/2021/08/03/electron-ssr-%E8%B8%A9%E5%9D%91/"/>
-    <id>http://www.hyaline.top/2021/08/03/electron-ssr-%E8%B8%A9%E5%9D%91/</id>
+    <link href="http://blog.hyaline.top/2021/08/03/electron-ssr-%E8%B8%A9%E5%9D%91/"/>
+    <id>http://blog.hyaline.top/2021/08/03/electron-ssr-%E8%B8%A9%E5%9D%91/</id>
     <published>2021-08-03T09:48:33.000Z</published>
     <updated>2021-08-05T05:40:44.980Z</updated>
     
@@ -263,19 +276,19 @@
     
     
     
-    <category term="ubuntu 安装" scheme="http://www.hyaline.top/categories/ubuntu-%E5%AE%89%E8%A3%85/"/>
+    <category term="ubuntu 安装" scheme="http://blog.hyaline.top/categories/ubuntu-%E5%AE%89%E8%A3%85/"/>
     
     
-    <category term="ssr" scheme="http://www.hyaline.top/tags/ssr/"/>
+    <category term="ssr" scheme="http://blog.hyaline.top/tags/ssr/"/>
     
-    <category term="linux" scheme="http://www.hyaline.top/tags/linux/"/>
+    <category term="linux" scheme="http://blog.hyaline.top/tags/linux/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://www.hyaline.top/2021/08/03/hello-world/"/>
-    <id>http://www.hyaline.top/2021/08/03/hello-world/</id>
+    <link href="http://blog.hyaline.top/2021/08/03/hello-world/"/>
+    <id>http://blog.hyaline.top/2021/08/03/hello-world/</id>
     <published>2021-08-02T16:00:16.010Z</published>
     <updated>2021-08-04T15:48:35.993Z</updated>
     
@@ -290,12 +303,12 @@
     
     
     
-    <category term="博客搭建" scheme="http://www.hyaline.top/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    <category term="博客搭建" scheme="http://blog.hyaline.top/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
     
-    <category term="hexo" scheme="http://www.hyaline.top/tags/hexo/"/>
+    <category term="hexo" scheme="http://blog.hyaline.top/tags/hexo/"/>
     
-    <category term="hexo技巧" scheme="http://www.hyaline.top/tags/hexo%E6%8A%80%E5%B7%A7/"/>
+    <category term="hexo技巧" scheme="http://blog.hyaline.top/tags/hexo%E6%8A%80%E5%B7%A7/"/>
     
   </entry>
   
