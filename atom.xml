@@ -6,7 +6,7 @@
   <link href="http://blog.hyaline.top/atom.xml" rel="self"/>
   
   <link href="http://blog.hyaline.top/"/>
-  <updated>2021-08-13T15:24:06.564Z</updated>
+  <updated>2021-08-20T14:55:07.123Z</updated>
   <id>http://blog.hyaline.top/</id>
   
   <author>
@@ -15,6 +15,40 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>http调试</title>
+    <link href="http://blog.hyaline.top/2021/08/20/http%E8%B0%83%E8%AF%95/"/>
+    <id>http://blog.hyaline.top/2021/08/20/http%E8%B0%83%E8%AF%95/</id>
+    <published>2021-08-20T14:52:22.000Z</published>
+    <updated>2021-08-20T14:55:07.123Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;调试常用工具&quot;&gt;&lt;a href=&quot;#调试常用工具&quot; class=&quot;headerlink&quot; title=&quot;调试常用工具&quot;&gt;&lt;/a&gt;调试常用工具&lt;/h1&gt;&lt;p&gt;postman：&lt;a</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>mysql常用命令</title>
+    <link href="http://blog.hyaline.top/2021/08/19/mysql%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+    <id>http://blog.hyaline.top/2021/08/19/mysql%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</id>
+    <published>2021-08-19T04:06:53.000Z</published>
+    <updated>2021-08-19T04:06:53.316Z</updated>
+    
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>linux 解压缩</title>
@@ -134,7 +168,7 @@
     <link href="http://blog.hyaline.top/2021/08/05/hexo%E8%87%AA%E5%8A%A8%E5%8C%96/"/>
     <id>http://blog.hyaline.top/2021/08/05/hexo%E8%87%AA%E5%8A%A8%E5%8C%96/</id>
     <published>2021-08-05T07:40:00.000Z</published>
-    <updated>2021-08-09T16:34:45.980Z</updated>
+    <updated>2021-08-18T16:38:02.640Z</updated>
     
     
       
@@ -151,6 +185,8 @@
     
     
     <category term="hexo" scheme="http://blog.hyaline.top/tags/hexo/"/>
+    
+    <category term="hexo技巧" scheme="http://blog.hyaline.top/tags/hexo%E6%8A%80%E5%B7%A7/"/>
     
   </entry>
   
