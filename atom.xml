@@ -6,7 +6,7 @@
   <link href="http://blog.hyaline.top/atom.xml" rel="self"/>
   
   <link href="http://blog.hyaline.top/"/>
-  <updated>2021-09-26T11:39:14.260Z</updated>
+  <updated>2021-10-06T03:03:42.360Z</updated>
   <id>http://blog.hyaline.top/</id>
   
   <author>
@@ -15,6 +15,19 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Vmware 虚拟机使用心得</title>
+    <link href="http://blog.hyaline.top/2021/10/06/Vmware-%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/"/>
+    <id>http://blog.hyaline.top/2021/10/06/Vmware-%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/</id>
+    <published>2021-10-06T03:03:42.000Z</published>
+    <updated>2021-10-06T03:03:42.360Z</updated>
+    
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>在生龙使用</title>
@@ -49,7 +62,7 @@
     <link href="http://blog.hyaline.top/2021/09/26/python%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
     <id>http://blog.hyaline.top/2021/09/26/python%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</id>
     <published>2021-09-26T03:06:52.000Z</published>
-    <updated>2021-09-26T03:09:28.997Z</updated>
+    <updated>2021-10-06T06:08:27.482Z</updated>
     
     
       
@@ -57,7 +70,7 @@
         
         
     <summary type="html">&lt;h1 id=&quot;目录&quot;&gt;&lt;a href=&quot;#目录&quot; class=&quot;headerlink&quot; title=&quot;目录&quot;&gt;&lt;/a&gt;目录&lt;/h1&gt;&lt;p&gt;[TOC]&lt;/p&gt;
-&lt;h1 id=&quot;pycharm-conda配置&quot;&gt;&lt;a href=&quot;#pycharm-conda配置&quot;</summary>
+&lt;h1 id=&quot;软件下载&quot;&gt;&lt;a href=&quot;#软件下载&quot; class=&quot;headerlink&quot;</summary>
         
       
     
