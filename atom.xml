@@ -6,7 +6,7 @@
   <link href="http://blog.hyaline.top/atom.xml" rel="self"/>
   
   <link href="http://blog.hyaline.top/"/>
-  <updated>2021-10-06T03:03:42.360Z</updated>
+  <updated>2021-10-06T07:10:06.206Z</updated>
   <id>http://blog.hyaline.top/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>好用的软件</title>
+    <link href="http://blog.hyaline.top/2021/10/06/%E5%A5%BD%E7%94%A8%E7%9A%84%E8%BD%AF%E4%BB%B6/"/>
+    <id>http://blog.hyaline.top/2021/10/06/%E5%A5%BD%E7%94%A8%E7%9A%84%E8%BD%AF%E4%BB%B6/</id>
+    <published>2021-10-06T07:07:42.000Z</published>
+    <updated>2021-10-06T07:10:06.206Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;解压缩&quot;&gt;&lt;a href=&quot;#解压缩&quot; class=&quot;headerlink&quot; title=&quot;解压缩&quot;&gt;&lt;/a&gt;解压缩&lt;/h1&gt;&lt;p&gt;7z（优点，小）&lt;br&gt;band</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Vmware 虚拟机使用心得</title>
@@ -450,33 +471,6 @@
     <category term="ssr" scheme="http://blog.hyaline.top/tags/ssr/"/>
     
     <category term="linux" scheme="http://blog.hyaline.top/tags/linux/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://blog.hyaline.top/2021/08/03/hello-world/"/>
-    <id>http://blog.hyaline.top/2021/08/03/hello-world/</id>
-    <published>2021-08-02T16:00:16.010Z</published>
-    <updated>2021-08-04T15:48:35.993Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
-        
-      
-    
-    
-    
-    <category term="博客搭建" scheme="http://blog.hyaline.top/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
-    
-    
-    <category term="hexo" scheme="http://blog.hyaline.top/tags/hexo/"/>
-    
-    <category term="hexo技巧" scheme="http://blog.hyaline.top/tags/hexo%E6%8A%80%E5%B7%A7/"/>
     
   </entry>
   
