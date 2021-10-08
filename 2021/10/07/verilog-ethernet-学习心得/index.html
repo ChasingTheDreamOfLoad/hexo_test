@@ -18,12 +18,12 @@
   
   
   <title>verilog-ethernet 学习心得 | hyaline blog</title>
-  <meta name="description" content="知乎教程https:&#x2F;&#x2F;www.zhihu.com&#x2F;column&#x2F;c_1346501991867199488 错误纠正  最近在做以太网方面的开发工作，在Github中发现一个优秀的Verilog以太网项目，670+ star，整个项目实现了UDP协议栈，代码质量很高，且独立实现了axis fifio等基本功能模块，每一个模块都有独立的仿真文件，仿真采用cocotb和myhdl平台，使用pytho">
+  <meta name="description" content="未翻译的英文都有特殊原因，不适合翻译，可以搜索具体含义 知乎教程https:&#x2F;&#x2F;www.zhihu.com&#x2F;column&#x2F;c_1346501991867199488 错误纠正  最近在做以太网方面的开发工作，在Github中发现一个优秀的Verilog以太网项目，670+ star，整个项目实现了UDP协议栈，代码质量很高，且独立实现了axis fifio等基本功能模块，每一个模块都有独立的仿真文">
 <meta property="og:type" content="article">
 <meta property="og:title" content="verilog-ethernet 学习心得">
 <meta property="og:url" content="http://blog.hyaline.top/2021/10/07/verilog-ethernet-%E5%AD%A6%E4%B9%A0%E5%BF%83%E5%BE%97/index.html">
 <meta property="og:site_name" content="wanghao&#39;Blog">
-<meta property="og:description" content="知乎教程https:&#x2F;&#x2F;www.zhihu.com&#x2F;column&#x2F;c_1346501991867199488 错误纠正  最近在做以太网方面的开发工作，在Github中发现一个优秀的Verilog以太网项目，670+ star，整个项目实现了UDP协议栈，代码质量很高，且独立实现了axis fifio等基本功能模块，每一个模块都有独立的仿真文件，仿真采用cocotb和myhdl平台，使用pytho">
+<meta property="og:description" content="未翻译的英文都有特殊原因，不适合翻译，可以搜索具体含义 知乎教程https:&#x2F;&#x2F;www.zhihu.com&#x2F;column&#x2F;c_1346501991867199488 错误纠正  最近在做以太网方面的开发工作，在Github中发现一个优秀的Verilog以太网项目，670+ star，整个项目实现了UDP协议栈，代码质量很高，且独立实现了axis fifio等基本功能模块，每一个模块都有独立的仿真文">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://gitee.com/wangdaochuan/img-save-2/raw/master/202110071912296.png">
 <meta property="og:image" content="https://gitee.com/wangdaochuan/img-save-2/raw/master/202110072044300.png">
@@ -31,10 +31,12 @@
 <meta property="og:image" content="https://gitee.com/wangdaochuan/img-save-2/raw/master/202110071943972.png">
 <meta property="og:image" content="https://gitee.com/wangdaochuan/img-save-2/raw/master/202110071945567.png">
 <meta property="og:image" content="https://gitee.com/wangdaochuan/img-save-2/raw/master/202110071946531.png">
+<meta property="og:image" content="https://gitee.com/wangdaochuan/img-save-2/raw/master/202110081903515.png">
+<meta property="og:image" content="https://gitee.com/wangdaochuan/img-save-2/raw/master/202110082041483.png">
 <meta property="og:image" content="https://gitee.com/wangdaochuan/img-save-2/raw/master/202110071913968.jpeg">
 <meta property="og:image" content="https://gitee.com/wangdaochuan/img-save-2/raw/master/202110081050126.png">
 <meta property="article:published_time" content="2021-10-07T11:08:55.000Z">
-<meta property="article:modified_time" content="2021-10-08T08:54:08.681Z">
+<meta property="article:modified_time" content="2021-10-08T12:45:38.004Z">
 <meta property="article:author" content="wanghao">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://gitee.com/wangdaochuan/img-save-2/raw/master/202110071912296.png">
@@ -392,7 +394,7 @@
         <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2021/10/07/verilog-ethernet-%E5%AD%A6%E4%B9%A0%E5%BF%83%E5%BE%97/#comments" class="article-comment-link">评论</a></span>
         
 	
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 696(字)</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 951(字)</span>
 	
 	
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 3(分)</span>
@@ -402,7 +404,8 @@
     </div>
     <div class="article-entry marked-body" itemprop="articleBody">
       
-        <h1 id="知乎教程"><a href="#知乎教程" class="headerlink" title="知乎教程"></a>知乎教程</h1><p><a target="_blank" rel="noopener" href="https://www.zhihu.com/column/c_1346501991867199488">https://www.zhihu.com/column/c_1346501991867199488</a></p>
+        <p><strong>未翻译的英文都有特殊原因，不适合翻译，可以搜索具体含义</strong></p>
+<h1 id="知乎教程"><a href="#知乎教程" class="headerlink" title="知乎教程"></a>知乎教程</h1><p><a target="_blank" rel="noopener" href="https://www.zhihu.com/column/c_1346501991867199488">https://www.zhihu.com/column/c_1346501991867199488</a></p>
 <p>错误纠正</p>
 <blockquote>
 <p>最近在做以太网方面的开发工作，在Github中发现一个优秀的Verilog以太网项目，670+ star，整个项目实现了UDP协议栈，代码质量很高，且独立实现了axis fifio等基本功能模块，每一个模块都有独立的仿真文件，仿真采用cocotb和myhdl平台，使用python来编写测试文件， 使用iverilog来进行编译，用gtkwave来查看波形，值得阅读与学习，项目链接如下：</p>
@@ -424,7 +427,7 @@
 <h2 id="什么是MAC？"><a href="#什么是MAC？" class="headerlink" title="什么是MAC？"></a>什么是MAC？</h2><p>在7层osi模型中，MAC芯片位于第二层（数据链路层）</p>
 <p>mii mac  phy 相关字眼出现在开源项目中</p>
 <p> <img src="https://gitee.com/wangdaochuan/img-save-2/raw/master/202110071914416.png" alt="image-20211007191428335"></p>
-<h2 id="tcl在项目中有一个"><a href="#tcl在项目中有一个" class="headerlink" title="tcl在项目中有一个"></a>tcl在项目中有一个</h2><p>syn 文件夹 里面包含了很多tcl文件，有什么用呢？</p>
+<h2 id="在项目中的-tcl-是什么用"><a href="#在项目中的-tcl-是什么用" class="headerlink" title="在项目中的 tcl     是什么用"></a>在项目中的 tcl     是什么用</h2><p>在项目中有一个 syn 文件夹 里面包含了很多tcl文件，有什么用呢？</p>
 <p>tcl简介</p>
 <p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/35911911">https://zhuanlan.zhihu.com/p/35911911</a></p>
 <h2 id="文件初看-单词记录"><a href="#文件初看-单词记录" class="headerlink" title="文件初看(单词记录)"></a>文件初看(单词记录)</h2><p>Arbiter 仲裁器</p>
@@ -447,6 +450,13 @@
 <p>sync_reset –&gt; 复位（在主目录的 rtl-&gt;axis-&gt;sync_reset.v）</p>
 <p>但是并没有看到pll部分</p>
 </blockquote>
+<h2 id="Ethernet-Frame"><a href="#Ethernet-Frame" class="headerlink" title="Ethernet Frame"></a>Ethernet Frame</h2><p><img src="https://gitee.com/wangdaochuan/img-save-2/raw/master/202110081903515.png" alt="image-20211008190346419"></p>
+<p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/21318925">https://zhuanlan.zhihu.com/p/21318925</a></p>
+<p><img src="https://gitee.com/wangdaochuan/img-save-2/raw/master/202110082041483.png" alt="image-20211008204133390"></p>
+<p>事实上真正用起来的不是OSI而是TCP/IP</p>
+<h2 id="Octet-是什么？"><a href="#Octet-是什么？" class="headerlink" title="Octet 是什么？"></a>Octet 是什么？</h2><p>Octet 总是表达8个bit （就像他名字所说的），当我们在谈论网络上的问题时，更喜欢使用这个词而不是Byte。</p>
+<p>Byte 通常情况下也表示8个bit，但是准确的说，Byte表示的是CPU可以独立的寻址的最小内存单位（不过通过移位和逻辑运算，CPU也可以寻址到某一个单独的bit）。曾几何时，有些电脑的寻址单位不是8Bit的。而现在，大多数情况下byte可以和octet等价但是如果你想要强调准确的8bit时，你就应该使用octet而不是byte。</p>
+<p>另外，还有一个量词 nibble用来形容一个字节的一半 （通常是4bit）不过这个词基本上没人用就是了。</p>
 <h1 id="IEEE-802-3"><a href="#IEEE-802-3" class="headerlink" title="IEEE 802.3"></a>IEEE 802.3</h1><p><strong>IEEE 802.3</strong> is a <a href="">working group</a> and a collection of <a href="">Institute of Electrical and Electronics Engineers</a> (IEEE) standards produced by the working group defining the <a href="">physical layer</a> and <a href="">data link layer</a>‘s <a href="">media access control</a> (MAC) of wired <a href="">Ethernet</a>. This is generally a <a href="">local area network</a>(LAN) technology with some <a href="">wide area network</a> (WAN) applications. Physical connections are made between nodes and/or infrastructure devices (<a href="">hubs</a>, <a href="">switches</a>, <a href="">routers</a>) by various types of copper or <a href="">fiber cable</a>.</p>
 <p>keywords:define the physical layer and data link layer</p>
 <h1 id="phy讲解"><a href="#phy讲解" class="headerlink" title="phy讲解"></a>phy讲解</h1><ol>

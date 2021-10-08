@@ -6,7 +6,7 @@
   <link href="http://blog.hyaline.top/atom.xml" rel="self"/>
   
   <link href="http://blog.hyaline.top/"/>
-  <updated>2021-10-08T08:54:08.681Z</updated>
+  <updated>2021-10-08T12:45:38.004Z</updated>
   <id>http://blog.hyaline.top/</id>
   
   <author>
@@ -21,14 +21,15 @@
     <link href="http://blog.hyaline.top/2021/10/07/verilog-ethernet-%E5%AD%A6%E4%B9%A0%E5%BF%83%E5%BE%97/"/>
     <id>http://blog.hyaline.top/2021/10/07/verilog-ethernet-%E5%AD%A6%E4%B9%A0%E5%BF%83%E5%BE%97/</id>
     <published>2021-10-07T11:08:55.000Z</published>
-    <updated>2021-10-08T08:54:08.681Z</updated>
+    <updated>2021-10-08T12:45:38.004Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;知乎教程&quot;&gt;&lt;a href=&quot;#知乎教程&quot; class=&quot;headerlink&quot; title=&quot;知乎教程&quot;&gt;&lt;/a&gt;知乎教程&lt;/h1&gt;&lt;p&gt;&lt;a</summary>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;未翻译的英文都有特殊原因，不适合翻译，可以搜索具体含义&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&quot;知乎教程&quot;&gt;&lt;a href=&quot;#知乎教程&quot; class=&quot;headerlink&quot; title=&quot;知乎教程&quot;&gt;&lt;/a&gt;知乎教程&lt;/h1&gt;&lt;p&gt;&lt;a</summary>
         
       
     
@@ -375,15 +376,15 @@
     <link href="http://blog.hyaline.top/2021/08/05/vs-code-%E6%B7%BB%E5%8A%A0%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95/"/>
     <id>http://blog.hyaline.top/2021/08/05/vs-code-%E6%B7%BB%E5%8A%A0%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95/</id>
     <published>2021-08-05T06:02:13.000Z</published>
-    <updated>2021-09-04T15:07:39.935Z</updated>
+    <updated>2021-10-08T12:46:19.544Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;任意位置新建一个reg文件，可以命名为1.reg&lt;/p&gt;
-&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span</summary>
+    <summary type="html">&lt;p&gt;任意位置新建一个reg文件，可以命名为1.reg（注意不要搞成1.reg.txt）&lt;/p&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span</summary>
         
       
     

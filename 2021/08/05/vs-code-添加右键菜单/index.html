@@ -18,15 +18,15 @@
   
   
   <title>vs code 添加右键菜单 | hyaline blog</title>
-  <meta name="description" content="任意位置新建一个reg文件，可以命名为1.reg 123456789101112131415161718192021222324252627Windows Registry Editor Version 5.00; 桌面右键添加[HKEY_CLASSES_ROOT\*\shell\VSCode]@&#x3D;&quot;Open with Code&quot;&quot;Icon&quot;&#x3D;&quot;D">
+  <meta name="description" content="任意位置新建一个reg文件，可以命名为1.reg（注意不要搞成1.reg.txt） 123456789101112131415161718192021222324252627Windows Registry Editor Version 5.00; 桌面右键添加[HKEY_CLASSES_ROOT\*\shell\VSCode]@&#x3D;&quot;Open with Code&quot;&quot;I">
 <meta property="og:type" content="article">
 <meta property="og:title" content="vs code 添加右键菜单">
 <meta property="og:url" content="http://blog.hyaline.top/2021/08/05/vs-code-%E6%B7%BB%E5%8A%A0%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95/index.html">
 <meta property="og:site_name" content="wanghao&#39;Blog">
-<meta property="og:description" content="任意位置新建一个reg文件，可以命名为1.reg 123456789101112131415161718192021222324252627Windows Registry Editor Version 5.00; 桌面右键添加[HKEY_CLASSES_ROOT\*\shell\VSCode]@&#x3D;&quot;Open with Code&quot;&quot;Icon&quot;&#x3D;&quot;D">
+<meta property="og:description" content="任意位置新建一个reg文件，可以命名为1.reg（注意不要搞成1.reg.txt） 123456789101112131415161718192021222324252627Windows Registry Editor Version 5.00; 桌面右键添加[HKEY_CLASSES_ROOT\*\shell\VSCode]@&#x3D;&quot;Open with Code&quot;&quot;I">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-08-05T06:02:13.000Z">
-<meta property="article:modified_time" content="2021-09-04T15:07:39.935Z">
+<meta property="article:modified_time" content="2021-10-08T12:46:19.544Z">
 <meta property="article:author" content="wanghao">
 <meta property="article:tag" content="vs code">
 <meta property="article:tag" content="添加右键菜单">
@@ -390,7 +390,7 @@
         <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2021/08/05/vs-code-%E6%B7%BB%E5%8A%A0%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95/#comments" class="article-comment-link">评论</a></span>
         
 	
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 210(字)</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 219(字)</span>
 	
 	
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 1(分)</span>
@@ -400,7 +400,7 @@
     </div>
     <div class="article-entry marked-body" itemprop="articleBody">
       
-        <p>任意位置新建一个reg文件，可以命名为1.reg</p>
+        <p>任意位置新建一个reg文件，可以命名为1.reg（注意不要搞成1.reg.txt）</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">Windows Registry Editor Version 5.00</span><br><span class="line">; 桌面右键添加</span><br><span class="line">[HKEY_CLASSES_ROOT\*\shell\VSCode]</span><br><span class="line">@=&quot;Open with Code&quot;</span><br><span class="line">&quot;Icon&quot;=&quot;D:\\NEW_software\\Microsoft VS Code\\Microsoft VS Code\\Code.exe&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\*\shell\VSCode\command]</span><br><span class="line">@=&quot;\&quot;D:\\NEW_software\\Microsoft VS Code\\Microsoft VS Code\\Code.exe\&quot; \&quot;%1\&quot;&quot;</span><br><span class="line"></span><br><span class="line">Windows Registry Editor Version 5.00</span><br><span class="line">; 文件右键添加</span><br><span class="line">[HKEY_CLASSES_ROOT\Directory\shell\VSCode]</span><br><span class="line">@=&quot;Open with Code&quot;</span><br><span class="line">&quot;Icon&quot;=&quot;D:\\NEW_software\\Microsoft VS Code\\Microsoft VS Code\\Code.exe&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\Directory\shell\VSCode\command]</span><br><span class="line">@=&quot;\&quot;D:\\NEW_software\\Microsoft VS Code\\Microsoft VS Code\\Code.exe\&quot; \&quot;%V\&quot;&quot;</span><br><span class="line"></span><br><span class="line">Windows Registry Editor Version 5.00</span><br><span class="line">; 文件夹背景位置右键添加</span><br><span class="line">[HKEY_CLASSES_ROOT\Directory\Background\shell\VSCode]</span><br><span class="line">@=&quot;Open with Code&quot;</span><br><span class="line">&quot;Icon&quot;=&quot;D:\\NEW_software\\Microsoft VS Code\\Microsoft VS Code\\Code.exe&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\Directory\Background\shell\VSCode\command]</span><br><span class="line">@=&quot;\&quot;D:\\NEW_software\\Microsoft VS Code\\Microsoft VS Code\\Code.exe\&quot; \&quot;%V\&quot;&quot;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 <p>之后保存退出，运行此文件即可</p>
