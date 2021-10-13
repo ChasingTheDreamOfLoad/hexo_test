@@ -6,7 +6,7 @@
   <link href="http://blog.hyaline.top/atom.xml" rel="self"/>
   
   <link href="http://blog.hyaline.top/"/>
-  <updated>2021-10-10T14:16:47.652Z</updated>
+  <updated>2021-10-13T09:28:55.977Z</updated>
   <id>http://blog.hyaline.top/</id>
   
   <author>
@@ -17,11 +17,24 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>make学习心得</title>
+    <link href="http://blog.hyaline.top/2021/10/13/make%E5%AD%A6%E4%B9%A0%E5%BF%83%E5%BE%97/"/>
+    <id>http://blog.hyaline.top/2021/10/13/make%E5%AD%A6%E4%B9%A0%E5%BF%83%E5%BE%97/</id>
+    <published>2021-10-13T09:28:55.000Z</published>
+    <updated>2021-10-13T09:28:55.977Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>verilog-ethernet 学习心得</title>
     <link href="http://blog.hyaline.top/2021/10/07/verilog-ethernet-%E5%AD%A6%E4%B9%A0%E5%BF%83%E5%BE%97/"/>
     <id>http://blog.hyaline.top/2021/10/07/verilog-ethernet-%E5%AD%A6%E4%B9%A0%E5%BF%83%E5%BE%97/</id>
     <published>2021-10-07T11:08:55.000Z</published>
-    <updated>2021-10-10T14:16:47.652Z</updated>
+    <updated>2021-10-11T11:00:14.150Z</updated>
     
     
       
@@ -45,14 +58,15 @@
     <link href="http://blog.hyaline.top/2021/10/06/%E5%A5%BD%E7%94%A8%E7%9A%84%E8%BD%AF%E4%BB%B6/"/>
     <id>http://blog.hyaline.top/2021/10/06/%E5%A5%BD%E7%94%A8%E7%9A%84%E8%BD%AF%E4%BB%B6/</id>
     <published>2021-10-06T07:07:42.000Z</published>
-    <updated>2021-10-06T07:10:06.206Z</updated>
+    <updated>2021-10-12T05:42:11.593Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;解压缩&quot;&gt;&lt;a href=&quot;#解压缩&quot; class=&quot;headerlink&quot; title=&quot;解压缩&quot;&gt;&lt;/a&gt;解压缩&lt;/h1&gt;&lt;p&gt;7z（优点，小）&lt;br&gt;band</summary>
+    <summary type="html">&lt;h1 id=&quot;解压缩&quot;&gt;&lt;a href=&quot;#解压缩&quot; class=&quot;headerlink&quot; title=&quot;解压缩&quot;&gt;&lt;/a&gt;解压缩&lt;/h1&gt;&lt;p&gt;7z（优点，小）&lt;br&gt;band zip&lt;/p&gt;
+&lt;h1 id=&quot;本地视频播放器&quot;&gt;&lt;a href=&quot;#本地视频播放器&quot;</summary>
         
       
     
@@ -145,7 +159,7 @@
     <link href="http://blog.hyaline.top/2021/09/19/Sublime-Text%E7%9A%84%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/"/>
     <id>http://blog.hyaline.top/2021/09/19/Sublime-Text%E7%9A%84%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/</id>
     <published>2021-09-19T02:17:36.000Z</published>
-    <updated>2021-09-19T13:39:54.207Z</updated>
+    <updated>2021-10-11T06:26:08.783Z</updated>
     
     
       
@@ -244,7 +258,7 @@
     <link href="http://blog.hyaline.top/2021/08/13/linux-%E8%A7%A3%E5%8E%8B%E7%BC%A9/"/>
     <id>http://blog.hyaline.top/2021/08/13/linux-%E8%A7%A3%E5%8E%8B%E7%BC%A9/</id>
     <published>2021-08-13T15:24:06.000Z</published>
-    <updated>2021-08-13T15:24:06.564Z</updated>
+    <updated>2021-10-11T11:00:20.758Z</updated>
     
     
     
@@ -458,32 +472,6 @@
     <category term="picgo" scheme="http://blog.hyaline.top/tags/picgo/"/>
     
     <category term="typora" scheme="http://blog.hyaline.top/tags/typora/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>树莓派基础</title>
-    <link href="http://blog.hyaline.top/2021/08/03/%E6%A0%91%E8%8E%93%E6%B4%BE%E5%9F%BA%E7%A1%80/"/>
-    <id>http://blog.hyaline.top/2021/08/03/%E6%A0%91%E8%8E%93%E6%B4%BE%E5%9F%BA%E7%A1%80/</id>
-    <published>2021-08-03T14:57:10.000Z</published>
-    <updated>2021-08-03T15:02:43.152Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;树莓派基础&quot;&gt;&lt;a href=&quot;#树莓派基础&quot; class=&quot;headerlink&quot; title=&quot;树莓派基础&quot;&gt;&lt;/a&gt;树莓派基础&lt;/h1&gt;&lt;p&gt;查看系统位数&lt;/p&gt;
-&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
-        
-      
-    
-    
-    
-    <category term="ubuntu 安装" scheme="http://blog.hyaline.top/categories/ubuntu-%E5%AE%89%E8%A3%85/"/>
-    
-    
-    <category term="linux" scheme="http://blog.hyaline.top/tags/linux/"/>
     
   </entry>
   
