@@ -6,7 +6,7 @@
   <link href="http://blog.hyaline.top/atom.xml" rel="self"/>
   
   <link href="http://blog.hyaline.top/"/>
-  <updated>2021-10-15T07:55:10.178Z</updated>
+  <updated>2021-10-15T14:18:18.237Z</updated>
   <id>http://blog.hyaline.top/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>学习资料总结</title>
+    <link href="http://blog.hyaline.top/2021/10/15/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99%E6%80%BB%E7%BB%93/"/>
+    <id>http://blog.hyaline.top/2021/10/15/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99%E6%80%BB%E7%BB%93/</id>
+    <published>2021-10-15T09:48:31.000Z</published>
+    <updated>2021-10-15T14:18:18.237Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;图书下载网站&quot;&gt;&lt;a href=&quot;#图书下载网站&quot; class=&quot;headerlink&quot; title=&quot;图书下载网站&quot;&gt;&lt;/a&gt;图书下载网站&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://z-lib.org/&quot;&gt;Z-Library. The world’s</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>make学习心得</title>
@@ -42,7 +63,7 @@
     <link href="http://blog.hyaline.top/2021/10/07/verilog-ethernet-%E5%AD%A6%E4%B9%A0%E5%BF%83%E5%BE%97/"/>
     <id>http://blog.hyaline.top/2021/10/07/verilog-ethernet-%E5%AD%A6%E4%B9%A0%E5%BF%83%E5%BE%97/</id>
     <published>2021-10-07T11:08:55.000Z</published>
-    <updated>2021-10-15T08:42:26.732Z</updated>
+    <updated>2021-10-15T09:17:46.764Z</updated>
     
     
       
@@ -452,33 +473,6 @@
     <category term="hexo" scheme="http://blog.hyaline.top/tags/hexo/"/>
     
     <category term="hexo技巧" scheme="http://blog.hyaline.top/tags/hexo%E6%8A%80%E5%B7%A7/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>typora+picGo+gitee = 好用的markdown</title>
-    <link href="http://blog.hyaline.top/2021/08/03/typora-picGo-gitee-%E5%A5%BD%E7%94%A8%E7%9A%84markdown/"/>
-    <id>http://blog.hyaline.top/2021/08/03/typora-picGo-gitee-%E5%A5%BD%E7%94%A8%E7%9A%84markdown/</id>
-    <published>2021-08-03T15:06:17.000Z</published>
-    <updated>2021-09-19T09:54:32.661Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;准备—–软件下载及安装&quot;&gt;&lt;a href=&quot;#准备—–软件下载及安装&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="博客搭建" scheme="http://blog.hyaline.top/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
-    
-    
-    <category term="picgo" scheme="http://blog.hyaline.top/tags/picgo/"/>
-    
-    <category term="typora" scheme="http://blog.hyaline.top/tags/typora/"/>
     
   </entry>
   
