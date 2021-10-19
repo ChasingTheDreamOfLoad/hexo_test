@@ -6,7 +6,7 @@
   <link href="http://blog.hyaline.top/atom.xml" rel="self"/>
   
   <link href="http://blog.hyaline.top/"/>
-  <updated>2021-10-16T14:04:07.453Z</updated>
+  <updated>2021-10-19T08:25:59.724Z</updated>
   <id>http://blog.hyaline.top/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SPI的verilog实现</title>
+    <link href="http://blog.hyaline.top/2021/10/19/SPI%E7%9A%84verilog%E5%AE%9E%E7%8E%B0/"/>
+    <id>http://blog.hyaline.top/2021/10/19/SPI%E7%9A%84verilog%E5%AE%9E%E7%8E%B0/</id>
+    <published>2021-10-19T08:18:42.000Z</published>
+    <updated>2021-10-19T08:25:59.724Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;SPI的种类&quot;&gt;&lt;a href=&quot;#SPI的种类&quot; class=&quot;headerlink&quot; title=&quot;SPI的种类&quot;&gt;&lt;/a&gt;SPI的种类&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;&lt;h2 id=&quot;标准SPI：&quot;&gt;&lt;a href=&quot;#标准SPI：&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>系统安装</title>
@@ -63,7 +85,7 @@
     <link href="http://blog.hyaline.top/2021/10/13/make%E5%AD%A6%E4%B9%A0%E5%BF%83%E5%BE%97/"/>
     <id>http://blog.hyaline.top/2021/10/13/make%E5%AD%A6%E4%B9%A0%E5%BF%83%E5%BE%97/</id>
     <published>2021-10-13T09:28:55.000Z</published>
-    <updated>2021-10-15T07:55:10.178Z</updated>
+    <updated>2021-10-18T14:05:02.174Z</updated>
     
     
       
@@ -84,7 +106,7 @@
     <link href="http://blog.hyaline.top/2021/10/07/verilog-ethernet-%E5%AD%A6%E4%B9%A0%E5%BF%83%E5%BE%97/"/>
     <id>http://blog.hyaline.top/2021/10/07/verilog-ethernet-%E5%AD%A6%E4%B9%A0%E5%BF%83%E5%BE%97/</id>
     <published>2021-10-07T11:08:55.000Z</published>
-    <updated>2021-10-15T09:17:46.764Z</updated>
+    <updated>2021-10-19T13:54:07.064Z</updated>
     
     
       
@@ -447,34 +469,6 @@
     <category term="hexo" scheme="http://blog.hyaline.top/tags/hexo/"/>
     
     <category term="hexo技巧" scheme="http://blog.hyaline.top/tags/hexo%E6%8A%80%E5%B7%A7/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>vs code 添加右键菜单</title>
-    <link href="http://blog.hyaline.top/2021/08/05/vs-code-%E6%B7%BB%E5%8A%A0%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95/"/>
-    <id>http://blog.hyaline.top/2021/08/05/vs-code-%E6%B7%BB%E5%8A%A0%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95/</id>
-    <published>2021-08-05T06:02:13.000Z</published>
-    <updated>2021-10-08T12:46:19.544Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;任意位置新建一个reg文件，可以命名为1.reg（注意不要搞成1.reg.txt）&lt;/p&gt;
-&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span</summary>
-        
-      
-    
-    
-    
-    <category term="windows技巧" scheme="http://blog.hyaline.top/categories/windows%E6%8A%80%E5%B7%A7/"/>
-    
-    
-    <category term="vs code" scheme="http://blog.hyaline.top/tags/vs-code/"/>
-    
-    <category term="添加右键菜单" scheme="http://blog.hyaline.top/tags/%E6%B7%BB%E5%8A%A0%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95/"/>
     
   </entry>
   
