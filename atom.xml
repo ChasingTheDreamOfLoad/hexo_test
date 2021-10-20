@@ -6,7 +6,7 @@
   <link href="http://blog.hyaline.top/atom.xml" rel="self"/>
   
   <link href="http://blog.hyaline.top/"/>
-  <updated>2021-10-19T08:25:59.724Z</updated>
+  <updated>2021-10-20T12:53:29.730Z</updated>
   <id>http://blog.hyaline.top/</id>
   
   <author>
@@ -15,6 +15,54 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>数电回顾</title>
+    <link href="http://blog.hyaline.top/2021/10/20/%E6%95%B0%E7%94%B5%E5%9B%9E%E9%A1%BE/"/>
+    <id>http://blog.hyaline.top/2021/10/20/%E6%95%B0%E7%94%B5%E5%9B%9E%E9%A1%BE/</id>
+    <published>2021-10-20T08:49:43.000Z</published>
+    <updated>2021-10-20T12:53:29.730Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;K-Map-卡诺图&quot;&gt;&lt;a href=&quot;#K-Map-卡诺图&quot; class=&quot;headerlink&quot; title=&quot;K-Map 卡诺图&quot;&gt;&lt;/a&gt;K-Map</summary>
+        
+      
+    
+    
+    
+    
+    <category term="k-Map(卡诺图)" scheme="http://blog.hyaline.top/tags/k-Map-%E5%8D%A1%E8%AF%BA%E5%9B%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Embedded Linux</title>
+    <link href="http://blog.hyaline.top/2021/10/20/Embedded-Linux/"/>
+    <id>http://blog.hyaline.top/2021/10/20/Embedded-Linux/</id>
+    <published>2021-10-20T07:35:10.000Z</published>
+    <updated>2021-10-20T08:45:41.989Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;K-Map-卡诺图&quot;&gt;&lt;a href=&quot;#K-Map-卡诺图&quot; class=&quot;headerlink&quot; title=&quot;K-Map 卡诺图&quot;&gt;&lt;/a&gt;K-Map</summary>
+        
+      
+    
+    
+    
+    
+    <category term="linux" scheme="http://blog.hyaline.top/tags/linux/"/>
+    
+    <category term="嵌入式" scheme="http://blog.hyaline.top/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>SPI的verilog实现</title>
@@ -64,7 +112,7 @@
     <link href="http://blog.hyaline.top/2021/10/15/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99%E6%80%BB%E7%BB%93/"/>
     <id>http://blog.hyaline.top/2021/10/15/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99%E6%80%BB%E7%BB%93/</id>
     <published>2021-10-15T09:48:31.000Z</published>
-    <updated>2021-10-15T14:18:18.237Z</updated>
+    <updated>2021-10-20T13:21:47.879Z</updated>
     
     
       
@@ -106,7 +154,7 @@
     <link href="http://blog.hyaline.top/2021/10/07/verilog-ethernet-%E5%AD%A6%E4%B9%A0%E5%BF%83%E5%BE%97/"/>
     <id>http://blog.hyaline.top/2021/10/07/verilog-ethernet-%E5%AD%A6%E4%B9%A0%E5%BF%83%E5%BE%97/</id>
     <published>2021-10-07T11:08:55.000Z</published>
-    <updated>2021-10-19T13:54:07.064Z</updated>
+    <updated>2021-10-20T07:35:16.830Z</updated>
     
     
       
@@ -418,57 +466,6 @@
     
     
     <category term="happy" scheme="http://blog.hyaline.top/tags/happy/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>算法基础</title>
-    <link href="http://blog.hyaline.top/2021/08/05/%E7%AE%97%E6%B3%95%E5%9F%BA%E7%A1%80/"/>
-    <id>http://blog.hyaline.top/2021/08/05/%E7%AE%97%E6%B3%95%E5%9F%BA%E7%A1%80/</id>
-    <published>2021-08-05T14:47:30.000Z</published>
-    <updated>2021-08-06T05:57:20.571Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;程序 = 数据结构+代码&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h1 id=&quot;时间复杂度&quot;&gt;&lt;a href=&quot;#时间复杂度&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>hexo自动化</title>
-    <link href="http://blog.hyaline.top/2021/08/05/hexo%E8%87%AA%E5%8A%A8%E5%8C%96/"/>
-    <id>http://blog.hyaline.top/2021/08/05/hexo%E8%87%AA%E5%8A%A8%E5%8C%96/</id>
-    <published>2021-08-05T07:40:00.000Z</published>
-    <updated>2021-10-17T02:13:21.918Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;脚本文件的编写与使用&quot;&gt;&lt;a href=&quot;#脚本文件的编写与使用&quot; class=&quot;headerlink&quot; title=&quot;脚本文件的编写与使用&quot;&gt;&lt;/a&gt;脚本文件的编写与使用&lt;/h1&gt;&lt;h1 id=&quot;windows环境&quot;&gt;&lt;a href=&quot;#windows环境&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="博客搭建" scheme="http://blog.hyaline.top/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
-    
-    
-    <category term="hexo" scheme="http://blog.hyaline.top/tags/hexo/"/>
-    
-    <category term="hexo技巧" scheme="http://blog.hyaline.top/tags/hexo%E6%8A%80%E5%B7%A7/"/>
     
   </entry>
   
