@@ -17,26 +17,23 @@
   <meta http-equiv="window-target" content="_top" />
   
   
-  <title>Vmware 虚拟机使用心得 | hyaline blog</title>
-  <meta name="description" content="VMware 踩坑目录[TOC] retrieving file（之后贴图）retrieving file 特别慢 点skip跳过，这是因为他在联网下载，需要翻墙，翻墙需要在安装镜像完成后配置，所以网速奇慢 open vm toolsVMware默认会自动安装，但是安装奇慢 解决方案的话很容易搜到，这里贴一个博主的  主要内容是这三行  重新按上面方法搞了一遍连后面的open-vm-tools都安">
+  <title>各种协议 | hyaline blog</title>
+  <meta name="description" content="需要用到的协议ModBus、OPC、CAN、Profibus、ZigBee、Wifi、MQTT、COAP 分类基于以太网的： OPC，ZigBee，Wifi，MQTT，CoAP 独立的： can modbus（485，232，422，以太网） Profibus（485，光纤，MBP） opchttps:&#x2F;&#x2F;github.com&#x2F;OPCFoundation&#x2F;UA-.NETStandard&#x2F;blob&#x2F;">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Vmware 虚拟机使用心得">
-<meta property="og:url" content="http://blog.hyaline.top/2021/10/06/Vmware-%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/index.html">
+<meta property="og:title" content="各种协议">
+<meta property="og:url" content="http://blog.hyaline.top/2021/10/28/%E5%90%84%E7%A7%8D%E5%8D%8F%E8%AE%AE/index.html">
 <meta property="og:site_name" content="wanghao&#39;Blog">
-<meta property="og:description" content="VMware 踩坑目录[TOC] retrieving file（之后贴图）retrieving file 特别慢 点skip跳过，这是因为他在联网下载，需要翻墙，翻墙需要在安装镜像完成后配置，所以网速奇慢 open vm toolsVMware默认会自动安装，但是安装奇慢 解决方案的话很容易搜到，这里贴一个博主的  主要内容是这三行  重新按上面方法搞了一遍连后面的open-vm-tools都安">
+<meta property="og:description" content="需要用到的协议ModBus、OPC、CAN、Profibus、ZigBee、Wifi、MQTT、COAP 分类基于以太网的： OPC，ZigBee，Wifi，MQTT，CoAP 独立的： can modbus（485，232，422，以太网） Profibus（485，光纤，MBP） opchttps:&#x2F;&#x2F;github.com&#x2F;OPCFoundation&#x2F;UA-.NETStandard&#x2F;blob&#x2F;">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://gitee.com/wangdaochuan/img-save/raw/master/img/20210203203031.png">
-<meta property="og:image" content="https://gitee.com/wangdaochuan/img-save/raw/master/img/20210203203124.png">
-<meta property="og:image" content="https://gitee.com/wangdaochuan/img-save/raw/master/img/20210203203203.png">
-<meta property="og:image" content="https://gitee.com/wangdaochuan/img-save/raw/master/img/20210203203243.png">
-<meta property="og:image" content="https://gitee.com/wangdaochuan/img-save/raw/master/img/20210203204547.png">
-<meta property="article:published_time" content="2021-10-06T03:03:42.000Z">
-<meta property="article:modified_time" content="2021-10-09T08:33:47.958Z">
+<meta property="og:image" content="https://gitee.com/wangdaochuan/img-save-2/raw/master/image-20211028201044153.png">
+<meta property="og:image" content="https://gitee.com/wangdaochuan/img-save-2/raw/master/202110282120824.png">
+<meta property="article:published_time" content="2021-10-28T09:53:37.000Z">
+<meta property="article:modified_time" content="2021-10-28T14:28:24.442Z">
 <meta property="article:author" content="wanghao">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://gitee.com/wangdaochuan/img-save/raw/master/img/20210203203031.png">
+<meta name="twitter:image" content="https://gitee.com/wangdaochuan/img-save-2/raw/master/image-20211028201044153.png">
   <!-- Canonical links -->
-  <link rel="canonical" href="http://blog.hyaline.top/2021/10/06/Vmware-%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/index.html">
+  <link rel="canonical" href="http://blog.hyaline.top/2021/10/28/%E5%90%84%E7%A7%8D%E5%8D%8F%E8%AE%AE/index.html">
   
     <link rel="alternate" href="/atom.xml" title="wanghao&#39;Blog" type="application/atom+xml">
   
@@ -357,14 +354,14 @@
   
 <main class="main" role="main">
   <div class="content">
-  <article id="post-Vmware-虚拟机使用心得" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
+  <article id="post-各种协议" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
     
     <div class="article-header">
       
         
   
     <h1 class="article-title" itemprop="name">
-      Vmware 虚拟机使用心得
+      各种协议
     </h1>
   
 
@@ -372,8 +369,8 @@
       <div class="article-meta">
         <span class="article-date">
     <i class="icon icon-calendar-check"></i>
-	<a href="/2021/10/06/Vmware-%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/" class="article-date">
-	  <time datetime="2021-10-06T03:03:42.000Z" itemprop="datePublished">2021-10-06</time>
+	<a href="/2021/10/28/%E5%90%84%E7%A7%8D%E5%8D%8F%E8%AE%AE/" class="article-date">
+	  <time datetime="2021-10-28T09:53:37.000Z" itemprop="datePublished">2021-10-28</time>
 	</a>
 </span>
         
@@ -381,51 +378,214 @@
 
         
 
-        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2021/10/06/Vmware-%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/#comments" class="article-comment-link">评论</a></span>
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2021/10/28/%E5%90%84%E7%A7%8D%E5%8D%8F%E8%AE%AE/#comments" class="article-comment-link">评论</a></span>
         
 	
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 504(字)</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 624(字)</span>
 	
 	
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 1(分)</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 3(分)</span>
 	
 
       </div>
     </div>
     <div class="article-entry marked-body" itemprop="articleBody">
       
-        <h1 id="VMware-踩坑"><a href="#VMware-踩坑" class="headerlink" title="VMware 踩坑"></a>VMware 踩坑</h1><h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><p>[TOC]</p>
-<h2 id="retrieving-file（之后贴图）"><a href="#retrieving-file（之后贴图）" class="headerlink" title="retrieving file（之后贴图）"></a>retrieving file（之后贴图）</h2><p><strong>retrieving file 特别慢</strong> 点skip跳过，这是因为他在联网下载，需要翻墙，翻墙需要在安装镜像完成后配置，所以网速奇慢</p>
-<h2 id="open-vm-tools"><a href="#open-vm-tools" class="headerlink" title="open vm tools"></a>open vm tools</h2><p>VMware默认会自动安装，但是安装奇慢<img src="https://gitee.com/wangdaochuan/img-save/raw/master/img/20210203203031.png" alt="img"></p>
-<p>解决方案的话很容易搜到，这里贴一个博主的</p>
-<p><img src="https://gitee.com/wangdaochuan/img-save/raw/master/img/20210203203124.png" alt="img"></p>
-<p>主要内容是这三行</p>
-<p><img src="https://gitee.com/wangdaochuan/img-save/raw/master/img/20210203203203.png" alt="image-20210203203203943"></p>
-<p>重新按上面方法搞了一遍连后面的open-vm-tools都安装完了，这里还停在这个界面，简直垃圾中的垃圾</p>
-<p><img src="https://gitee.com/wangdaochuan/img-save/raw/master/img/20210203203243.png" alt="img"></p>
-<p>手动安装open-vmtools</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">sudo apt update</span><br><span class="line">sudo apt install open-vm-tools</span><br><span class="line">sudo apt install open-vm-tools-dkms #实现文件夹共享</span><br><span class="line">sudo apt install open-vm-tools-desktop #以支持双向拖放文件</span><br><span class="line">sudo reboot</span><br></pre></td></tr></table></figure>
-
-<h2 id="虚拟机翻墙（主机已经翻墙的情况下）"><a href="#虚拟机翻墙（主机已经翻墙的情况下）" class="headerlink" title="虚拟机翻墙（主机已经翻墙的情况下）"></a>虚拟机翻墙（主机已经翻墙的情况下）</h2><p>虚拟机翻墙，常见翻墙方式有VPN和shadowsocks~~</p>
-<h3 id="如果你的翻墙方式是shadowsocks"><a href="#如果你的翻墙方式是shadowsocks" class="headerlink" title="如果你的翻墙方式是shadowsocks"></a>如果你的翻墙方式是shadowsocks</h3><ol>
-<li>在宿主机windows上运行shadowsocks.exe并勾选“允许局域网连接”（ALLOW LAN ， LAN就是局域网的意思）</li>
-<li>使用桥接方式运行虚拟机（这时虚拟机与宿主处于同一个局域网）<br>进入linux系统，System Settings – Network – Network proxy勾选Manual（手动）,地址全部填宿主机IP（局域网网段），设置好代理端口（可在windows下的shadowsocks查看，一般为默认1080）</li>
-<li>linux 用浏览器访问<a target="_blank" rel="noopener" href="http://www.google.com,成功/">www.google.com，成功</a></li>
-</ol>
-<h2 id="shell-翻墙"><a href="#shell-翻墙" class="headerlink" title="shell 翻墙"></a>shell 翻墙</h2><p>方法一：（推荐使用）</p>
-<blockquote>
-<p>为什么说这个方法推荐使用呢？因为他只作用于当前终端中，不会影响环境，而且命令比较简单<br>在终端中直接运行：</p>
-</blockquote>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">export http_proxy=http://proxyAddress:port</span><br></pre></td></tr></table></figure>
-
-<p>ip地址可以通过 在cmd中输入ipconfig得到，我是wifi连的网<img src="https://gitee.com/wangdaochuan/img-save/raw/master/img/20210203204547.png" alt="image-20210203204547286"></p>
-<p>如果你是SSR,并且走的http的代理端口是12333，想执行wget或者curl来下载国外的东西，可以使用如下命令：</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">export http_proxy=http://192.168.0.101:12333</span><br></pre></td></tr></table></figure>
-
-<p>如果是https那么就经过如下命令：</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">export https_proxy=http://192.168.0.101:12333</span><br></pre></td></tr></table></figure>
-
-<p>除此之外的方法请参考<br><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/46973701">https://zhuanlan.zhihu.com/p/46973701</a></p>
+        <p>需要用到的协议<br>ModBus、OPC、CAN、Profibus、ZigBee、Wifi、MQTT、COAP</p>
+<h1 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h1><p>基于以太网的：</p>
+<p>OPC，ZigBee，Wifi，MQTT，CoAP</p>
+<p>独立的：</p>
+<p>can</p>
+<p>modbus（485，232，422，以太网）</p>
+<p>Profibus（485，光纤，MBP）</p>
+<h1 id="opc"><a href="#opc" class="headerlink" title="opc"></a>opc</h1><p><a target="_blank" rel="noopener" href="https://github.com/OPCFoundation/UA-.NETStandard/blob/master/Docs/PubSub.md">https://github.com/OPCFoundation/UA-.NETStandard/blob/master/Docs/PubSub.md</a></p>
+<h1 id="ZigBee"><a href="#ZigBee" class="headerlink" title="ZigBee"></a>ZigBee</h1><h1 id="MQTT和COAP"><a href="#MQTT和COAP" class="headerlink" title="MQTT和COAP"></a>MQTT和COAP</h1><p>emqx</p>
+<p>NanoMQ</p>
+<p><img src="https://gitee.com/wangdaochuan/img-save-2/raw/master/image-20211028201044153.png" alt="image-20211028201044153"></p>
+<p><strong>The Constrained Application Protocol</strong>（CoAP）</p>
+<p>MQTT： <strong>TCP</strong> 长链接， CoAP： <strong>UDP</strong> 低功耗短连接</p>
+<p>Playload  来自IP协议</p>
+<h1 id="Can"><a href="#Can" class="headerlink" title="Can"></a>Can</h1><h1 id="Modbus"><a href="#Modbus" class="headerlink" title="Modbus"></a>Modbus</h1><p>modbus常用于工业环境中，是客户端/服务器协议</p>
+<p>modbus支持多种（485，232，422，以太网）</p>
+<p>注：<strong>RS-485</strong>, also known as <strong>TIA-485(-A)</strong> or <strong>EIA-485</strong></p>
+<h2 id="Protocol-versions"><a href="#Protocol-versions" class="headerlink" title="Protocol versions"></a>Protocol versions</h2><p><a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Modbus">https://en.wikipedia.org/wiki/Modbus</a></p>
+<ul>
+<li><em>Modbus RTU</em> (Remote Terminal Unit)—————————- RS-485</li>
+<li><em>Modbus ASCII</em>—————————- RS-485</li>
+<li><em>Modbus TCP/IP or Modbus TCP</em>—————————- </li>
+<li><em>Modbus over TCP/IP or Modbus over TCP or Modbus RTU/IP</em></li>
+<li><em>Modbus over UDP</em></li>
+<li><em>Modbus Plus (Modbus+, MB+ or MBP)</em>—————————-  RS-485</li>
+<li><em>Pemex Modbus</em></li>
+<li><em>Enron Modbus</em></li>
+</ul>
+<p>其中需要常用到的是</p>
+<ul>
+<li><em>Modbus RTU</em> (Remote Terminal Unit)</li>
+<li>Modbus ASCII</li>
+<li> Modbus TCP</li>
+</ul>
+<p>在 Modbus 上进行通信（即传输数据）的每个设备都被赋予一个唯一的地址。</p>
+<p><a target="_blank" rel="noopener" href="http://www.pices-journal.com/downloads/V2I4-PICES0022.pdf">http://www.pices-journal.com/downloads/V2I4-PICES0022.pdf</a></p>
+<p><a target="_blank" rel="noopener" href="http://ir.lib.ksu.edu.tw/retrieve/43333/R0001+%E8%AB%96%E6%96%87%E6%9C%AC%E6%96%87.pdf">http://ir.lib.ksu.edu.tw/retrieve/43333/R0001+%E8%AB%96%E6%96%87%E6%9C%AC%E6%96%87.pdf</a></p>
+<h3 id="Modbus-RTU-frame-format"><a href="#Modbus-RTU-frame-format" class="headerlink" title="Modbus RTU frame format"></a>Modbus <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Remote_Terminal_Unit">RTU</a> frame format</h3><table>
+<thead>
+<tr>
+<th><strong>Name</strong></th>
+<th align="left">Length (bits)</th>
+<th><strong>Function</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Start</strong></td>
+<td align="left">28</td>
+<td><em>At least 3½ character times of silence (mark condition)</em>????</td>
+</tr>
+<tr>
+<td><strong>Address</strong></td>
+<td align="left">8</td>
+<td>Station address 唯一</td>
+</tr>
+<tr>
+<td><strong>Function</strong></td>
+<td align="left">8</td>
+<td>表示功能码</td>
+</tr>
+<tr>
+<td><strong>Data</strong></td>
+<td align="left">n × 8</td>
+<td>Data + length will be filled depending on the message type</td>
+</tr>
+<tr>
+<td><strong>CRC</strong></td>
+<td align="left">16</td>
+<td>CRC-16校验</td>
+</tr>
+<tr>
+<td><strong>End</strong></td>
+<td align="left">28</td>
+<td></td>
+</tr>
+</tbody></table>
+<ul>
+<li>ADU = Address + PDU + Error check,</li>
+<li>PDU = Function code + Data.</li>
+</ul>
+<p>A Modbus “frame” consists of an Application Data Unit (ADU), which encapsulates a Protocol Data Unit (PDU)</p>
+<h3 id="Modbus-ASCII-frame-format"><a href="#Modbus-ASCII-frame-format" class="headerlink" title="Modbus ASCII frame format"></a>Modbus ASCII frame format</h3><table>
+<thead>
+<tr>
+<th><strong>Name</strong></th>
+<th align="left">Length (bits)</th>
+<th><strong>Function</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Start</strong></td>
+<td align="left">28</td>
+<td>(0x3A)代表:</td>
+</tr>
+<tr>
+<td><strong>Address</strong></td>
+<td align="left">8</td>
+<td>Station address 唯一</td>
+</tr>
+<tr>
+<td><strong>Function</strong></td>
+<td align="left">8</td>
+<td>表示功能码</td>
+</tr>
+<tr>
+<td><strong>Data</strong></td>
+<td align="left">n × 8</td>
+<td>Data + length will be filled depending on the message type</td>
+</tr>
+<tr>
+<td><strong>LRC</strong></td>
+<td align="left">16</td>
+<td><a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Checksum">Checksum</a></td>
+</tr>
+<tr>
+<td><strong>End</strong></td>
+<td align="left">2</td>
+<td>(0x0D,0x0A)代表CR/LF</td>
+</tr>
+</tbody></table>
+<p>注：LRC 计算为 8 位值的总和（不包括开始和结束字符），取反（<a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Two's_complement">二进制补码</a>）并编码为 8 位值。</p>
+<h3 id="Modbus-TCP-frame-format"><a href="#Modbus-TCP-frame-format" class="headerlink" title="Modbus TCP frame format"></a>Modbus TCP frame format</h3><table>
+<thead>
+<tr>
+<th><strong>Name</strong></th>
+<th align="left">Length (bits)</th>
+<th><strong>Function</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Start</strong></td>
+<td align="left">28</td>
+<td>(0x3A)代表:</td>
+</tr>
+<tr>
+<td><strong>Address</strong></td>
+<td align="left">8</td>
+<td>Station address 唯一</td>
+</tr>
+<tr>
+<td><strong>Function</strong></td>
+<td align="left">8</td>
+<td>表示功能码</td>
+</tr>
+<tr>
+<td><strong>Data</strong></td>
+<td align="left">n × 8</td>
+<td>Data + length will be filled depending on the message type</td>
+</tr>
+<tr>
+<td><strong>LRC</strong></td>
+<td align="left">16</td>
+<td><a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Checksum">Checksum</a></td>
+</tr>
+<tr>
+<td><strong>End</strong></td>
+<td align="left">2</td>
+<td>(0x0D,0x0A)代表CR/LF</td>
+</tr>
+</tbody></table>
+<p>资料参考</p>
+<p><a target="_blank" rel="noopener" href="http://www.zxpmq.com/y-378.html%EF%BC%88%EF%BC%89">http://www.zxpmq.com/y-378.html（）</a></p>
+<p><img src="https://gitee.com/wangdaochuan/img-save-2/raw/master/202110282120824.png" alt="image-20211028212054764"></p>
+<h1 id="Profibus（PROcess-FIeld-BUS）"><a href="#Profibus（PROcess-FIeld-BUS）" class="headerlink" title="Profibus（PROcess FIeld BUS）"></a>Profibus（<strong>PRO</strong>cess <strong>FI</strong>eld <strong>BUS</strong>）</h1><p>PROFIBUS在物理层有三种实现方式：EIA-485（即RS-485），光纤，MBP。</p>
+<p>其包含三个标准：</p>
+<ul>
+<li>PROFIBUS－PA（Process Automation ）</li>
+<li>PROFIBUS – DP（Decentralized Periphery）</li>
+<li>PROFIBUS-FMS（Fieldbus Message Specification）</li>
+</ul>
+<p>性能</p>
+<table>
+<thead>
+<tr>
+<th>传输速率</th>
+<th>最大传输距离</th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>9.6K～12Mbps</td>
+<td>随传输速率变化</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<p>最大传输距离在9.6K<del>187.5Kbps时为1000m，500Kbps时为400m，1500Kbps时为200m，3000K</del>12000Kbps时为100m，可用中继器延长至10km</p>
+<p>常见<strong>数据速率（波特）：</strong>12M、6M、3M、1.5M、500k、187.5k、93.75k、19.2k、9.6k</p>
+<h1 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h1><p>工业以太网协议  EtherCAT, Profinet and multiprotocols.</p>
+<p><a target="_blank" rel="noopener" href="https://e2e.ti.com/blogs_/b/industrial_strength/posts/a-history-of-industrial-ethernet-protocols-and-their-benefits">https://e2e.ti.com/blogs_/b/industrial_strength/posts/a-history-of-industrial-ethernet-protocols-and-their-benefits</a></p>
 
       
     </div>
@@ -435,7 +595,7 @@
     
     <li class="post-copyright-link hidden-xs">
       <strong>本文链接：</strong>
-      <a href="http://blog.hyaline.top/2021/10/06/Vmware-%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/" title="Vmware 虚拟机使用心得" target="_blank" rel="external">http://blog.hyaline.top/2021/10/06/Vmware-虚拟机使用心得/</a>
+      <a href="http://blog.hyaline.top/2021/10/28/%E5%90%84%E7%A7%8D%E5%8D%8F%E8%AE%AE/" title="各种协议" target="_blank" rel="external">http://blog.hyaline.top/2021/10/28/各种协议/</a>
     </li>
     
     <li class="post-copyright-license">
@@ -481,13 +641,9 @@
   
   <ul class="pager pull-left">
     
-    <li class="prev">
-      <a href="/2021/10/06/%E5%A5%BD%E7%94%A8%E7%9A%84%E8%BD%AF%E4%BB%B6/" title="好用的软件"><i class="icon icon-angle-left" aria-hidden="true"></i><span>&nbsp;&nbsp;上一篇</span></a>
-    </li>
-    
     
     <li class="next">
-      <a href="/2021/09/26/%E5%9C%A8%E7%94%9F%E9%BE%99%E4%BD%BF%E7%94%A8/" title="在生龙使用"><span>下一篇&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
+      <a href="/2021/10/20/%E6%95%B0%E7%94%B5%E5%9B%9E%E9%A1%BE/" title="数电回顾"><span>下一篇&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
     </li>
     
     

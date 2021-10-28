@@ -6,7 +6,7 @@
   <link href="http://blog.hyaline.top/atom.xml" rel="self"/>
   
   <link href="http://blog.hyaline.top/"/>
-  <updated>2021-10-20T12:53:29.730Z</updated>
+  <updated>2021-10-28T14:28:24.442Z</updated>
   <id>http://blog.hyaline.top/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>各种协议</title>
+    <link href="http://blog.hyaline.top/2021/10/28/%E5%90%84%E7%A7%8D%E5%8D%8F%E8%AE%AE/"/>
+    <id>http://blog.hyaline.top/2021/10/28/%E5%90%84%E7%A7%8D%E5%8D%8F%E8%AE%AE/</id>
+    <published>2021-10-28T09:53:37.000Z</published>
+    <updated>2021-10-28T14:28:24.442Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;需要用到的协议&lt;br&gt;ModBus、OPC、CAN、Profibus、ZigBee、Wifi、MQTT、COAP&lt;/p&gt;
+&lt;h1 id=&quot;分类&quot;&gt;&lt;a href=&quot;#分类&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>数电回顾</title>
@@ -69,7 +91,7 @@
     <link href="http://blog.hyaline.top/2021/10/19/SPI%E7%9A%84verilog%E5%AE%9E%E7%8E%B0/"/>
     <id>http://blog.hyaline.top/2021/10/19/SPI%E7%9A%84verilog%E5%AE%9E%E7%8E%B0/</id>
     <published>2021-10-19T08:18:42.000Z</published>
-    <updated>2021-10-19T08:25:59.724Z</updated>
+    <updated>2021-10-21T07:20:23.513Z</updated>
     
     
       
@@ -249,7 +271,7 @@
     <link href="http://blog.hyaline.top/2021/09/26/python%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
     <id>http://blog.hyaline.top/2021/09/26/python%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</id>
     <published>2021-09-26T03:06:52.000Z</published>
-    <updated>2021-10-15T08:40:24.318Z</updated>
+    <updated>2021-10-21T08:32:52.442Z</updated>
     
     
       
@@ -443,29 +465,6 @@
     <category term="焊接" scheme="http://blog.hyaline.top/tags/%E7%84%8A%E6%8E%A5/"/>
     
     <category term="Altium Designer" scheme="http://blog.hyaline.top/tags/Altium-Designer/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>happy up net</title>
-    <link href="http://blog.hyaline.top/2021/08/06/happy-up-net/"/>
-    <id>http://blog.hyaline.top/2021/08/06/happy-up-net/</id>
-    <published>2021-08-06T05:57:15.000Z</published>
-    <updated>2021-10-14T02:39:22.648Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;快乐源泉&quot;&gt;&lt;a href=&quot;#快乐源泉&quot; class=&quot;headerlink&quot; title=&quot;快乐源泉&quot;&gt;&lt;/a&gt;快乐源泉&lt;/h1&gt;&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    
-    <category term="happy" scheme="http://blog.hyaline.top/tags/happy/"/>
     
   </entry>
   
