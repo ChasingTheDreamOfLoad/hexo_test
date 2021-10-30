@@ -26,9 +26,10 @@
 <meta property="og:description" content="需要用到的协议ModBus、OPC、CAN、Profibus、ZigBee、Wifi、MQTT、COAP 分类基于以太网的： OPC，ZigBee，Wifi，MQTT，CoAP 独立的： can modbus（485，232，422，以太网） Profibus（485，光纤，MBP） opchttps:&#x2F;&#x2F;github.com&#x2F;OPCFoundation&#x2F;UA-.NETStandard&#x2F;blob&#x2F;">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://gitee.com/wangdaochuan/img-save-2/raw/master/image-20211028201044153.png">
+<meta property="og:image" content="https://gitee.com/wangdaochuan/img-save-2/raw/master/202110291832948.png">
 <meta property="og:image" content="https://gitee.com/wangdaochuan/img-save-2/raw/master/202110282120824.png">
 <meta property="article:published_time" content="2021-10-28T09:53:37.000Z">
-<meta property="article:modified_time" content="2021-10-28T14:31:52.496Z">
+<meta property="article:modified_time" content="2021-10-29T11:40:58.627Z">
 <meta property="article:author" content="wanghao">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://gitee.com/wangdaochuan/img-save-2/raw/master/image-20211028201044153.png">
@@ -60,7 +61,7 @@
         <a id="avatar" href="https://github.com/ChasingTheDreamOfLoad" target="_blank">
           <img class="img-circle img-rotate" src="/images/avatar2.jpg" width="200" height="200">
         </a>
-        <h2 id="name" class="hidden-xs hidden-sm">王昊</h2>
+        <h2 id="name" class="hidden-xs hidden-sm">hyaline</h2>
         <h3 id="title" class="hidden-xs hidden-sm hidden-md">Chasing The Dream Of Load</h3>
         <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i> Qinhuangdao, China</small>
       </div>
@@ -195,8 +196,6 @@
 	
     <ul class="social-links">
     	
-        <li><a href="https://github.com/cofess" target="_blank" title="Github" data-toggle=tooltip data-placement=top><i class="icon icon-github"></i></a></li>
-        
         <li><a href="/atom.xml" target="_blank" title="Rss" data-toggle=tooltip data-placement=top><i class="icon icon-rss"></i></a></li>
         
     </ul>
@@ -381,7 +380,7 @@
         <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2021/10/28/%E5%90%84%E7%A7%8D%E5%8D%8F%E8%AE%AE/#comments" class="article-comment-link">评论</a></span>
         
 	
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 630(字)</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 743(字)</span>
 	
 	
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 3(分)</span>
@@ -405,9 +404,21 @@
 <p><strong>The Constrained Application Protocol</strong>（CoAP）</p>
 <p>MQTT： <strong>TCP</strong> 长链接， CoAP： <strong>UDP</strong> 低功耗短连接</p>
 <p>Playload  来自IP协议</p>
-<h1 id="Can"><a href="#Can" class="headerlink" title="Can"></a>Can</h1><h1 id="Modbus"><a href="#Modbus" class="headerlink" title="Modbus"></a>Modbus</h1><p>modbus常用于工业环境中，是客户端/服务器协议</p>
-<p>modbus支持多种（485，232，422，以太网）</p>
+<h1 id="Can"><a href="#Can" class="headerlink" title="Can"></a>Can</h1><h1 id="Modbus"><a href="#Modbus" class="headerlink" title="Modbus"></a>Modbus</h1><p>modbus指的是MODICON公司为该公司生产的PLC设计的一种通信协议，从其功能上看，可以认为是一种现场总线。modbus常用于工业环境中，是客户端/服务器协议</p>
+<p>modbus 可以用在多种类型的网络和总线上（RS-485，RS-232，RS-422，以太网），下图展示了一个例子</p>
+<p><img src="https://gitee.com/wangdaochuan/img-save-2/raw/master/202110291832948.png" alt="image-20211029183215852"></p>
 <p>注：<strong>RS-485</strong>, also known as <strong>TIA-485(-A)</strong> or <strong>EIA-485</strong></p>
+<h2 id="名词缩写"><a href="#名词缩写" class="headerlink" title="名词缩写"></a>名词缩写</h2><ul>
+<li>ADU -&gt;Application Data Unit </li>
+<li>HDLC -&gt; High level Data Link Control </li>
+<li>HMI -&gt; Human Machine Interface </li>
+<li>IETF -&gt; Internet Engineering Task </li>
+<li>Force -&gt; I/O Input/Output </li>
+<li>IP -&gt; Internet Protocol </li>
+<li>MAC -&gt; Media Access Control </li>
+<li>MB -&gt; MODBUS Protocol</li>
+<li>PDU -&gt; protocol data unit</li>
+</ul>
 <h2 id="Protocol-versions"><a href="#Protocol-versions" class="headerlink" title="Protocol versions"></a>Protocol versions</h2><p><a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Modbus">https://en.wikipedia.org/wiki/Modbus</a></p>
 <p>modbus的变种很多</p>
 <ul>
@@ -554,6 +565,7 @@
 </tbody></table>
 <p>资料参考</p>
 <p><a target="_blank" rel="noopener" href="http://www.zxpmq.com/y-378.html%EF%BC%88%EF%BC%89">http://www.zxpmq.com/y-378.html（）</a></p>
+<p>Modbus_Application_Protocol_V1_1b3</p>
 <p><img src="https://gitee.com/wangdaochuan/img-save-2/raw/master/202110282120824.png" alt="image-20211028212054764"></p>
 <h1 id="Profibus（PROcess-FIeld-BUS）"><a href="#Profibus（PROcess-FIeld-BUS）" class="headerlink" title="Profibus（PROcess FIeld BUS）"></a>Profibus（<strong>PRO</strong>cess <strong>FI</strong>eld <strong>BUS</strong>）</h1><p>PROFIBUS在物理层有三种实现方式：EIA-485（即RS-485），光纤，MBP。</p>
 <p>其包含三个标准：</p>
@@ -615,8 +627,8 @@
         </a>
       </div>
       <div class="media-body">
-        <h3 class="media-heading"><a href="https://github.com/ChasingTheDreamOfLoad" target="_blank"><span class="text-dark">王昊</span><small class="ml-1x">Chasing The Dream Of Load</small></a></h3>
-        <div>燕山大学在读研究生。</div>
+        <h3 class="media-heading"><a href="https://github.com/ChasingTheDreamOfLoad" target="_blank"><span class="text-dark">hyaline</span><small class="ml-1x">Chasing The Dream Of Load</small></a></h3>
+        <div>在读研究生</div>
       </div>
     </figure>
   </div>
@@ -667,8 +679,6 @@
 	
     <ul class="social-links">
     	
-        <li><a href="https://github.com/cofess" target="_blank" title="Github" data-toggle=tooltip data-placement=top><i class="icon icon-github"></i></a></li>
-        
         <li><a href="/atom.xml" target="_blank" title="Rss" data-toggle=tooltip data-placement=top><i class="icon icon-rss"></i></a></li>
         
     </ul>
