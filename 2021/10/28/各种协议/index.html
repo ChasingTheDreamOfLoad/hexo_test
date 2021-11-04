@@ -18,18 +18,18 @@
   
   
   <title>各种协议 | hyaline blog</title>
-  <meta name="description" content="需要用到的协议ModBus、OPC、CAN、Profibus、ZigBee、Wifi、MQTT、COAP 分类基于以太网的： OPC，ZigBee，Wifi，MQTT，CoAP 独立的： can modbus（485，232，422，以太网） Profibus（485，光纤，MBP） opchttps:&#x2F;&#x2F;github.com&#x2F;OPCFoundation&#x2F;UA-.NETStandard&#x2F;blob&#x2F;">
+  <meta name="description" content="需要用到的协议ModBus、OPC、CAN、Profibus、ZigBee、Wifi、MQTT、COAP 分类基于以太网的： OPC，Wifi，MQTT，CoAP 独立的： ZigBee(这是一个低速双向无线通信，在国内只能用2.4G频段) can modbus（485，232，422，以太网） Profibus（485，光纤，MBP） opchttps:&#x2F;&#x2F;github.com&#x2F;OPCFound">
 <meta property="og:type" content="article">
 <meta property="og:title" content="各种协议">
 <meta property="og:url" content="http://blog.hyaline.top/2021/10/28/%E5%90%84%E7%A7%8D%E5%8D%8F%E8%AE%AE/index.html">
 <meta property="og:site_name" content="wanghao&#39;Blog">
-<meta property="og:description" content="需要用到的协议ModBus、OPC、CAN、Profibus、ZigBee、Wifi、MQTT、COAP 分类基于以太网的： OPC，ZigBee，Wifi，MQTT，CoAP 独立的： can modbus（485，232，422，以太网） Profibus（485，光纤，MBP） opchttps:&#x2F;&#x2F;github.com&#x2F;OPCFoundation&#x2F;UA-.NETStandard&#x2F;blob&#x2F;">
+<meta property="og:description" content="需要用到的协议ModBus、OPC、CAN、Profibus、ZigBee、Wifi、MQTT、COAP 分类基于以太网的： OPC，Wifi，MQTT，CoAP 独立的： ZigBee(这是一个低速双向无线通信，在国内只能用2.4G频段) can modbus（485，232，422，以太网） Profibus（485，光纤，MBP） opchttps:&#x2F;&#x2F;github.com&#x2F;OPCFound">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://gitee.com/wangdaochuan/img-save-2/raw/master/image-20211028201044153.png">
 <meta property="og:image" content="https://gitee.com/wangdaochuan/img-save-2/raw/master/202110291832948.png">
 <meta property="og:image" content="https://gitee.com/wangdaochuan/img-save-2/raw/master/202110282120824.png">
 <meta property="article:published_time" content="2021-10-28T09:53:37.000Z">
-<meta property="article:modified_time" content="2021-10-30T03:05:41.591Z">
+<meta property="article:modified_time" content="2021-11-01T15:01:55.614Z">
 <meta property="article:author" content="wanghao">
 <meta property="article:tag" content="通信协议">
 <meta name="twitter:card" content="summary">
@@ -356,7 +356,7 @@
   <div class="slimContent">
     <nav id="toc" class="article-toc">
       <h3 class="toc-title">文章目录</h3>
-      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%88%86%E7%B1%BB"><span class="toc-number">1.</span> <span class="toc-text">分类</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#opc"><span class="toc-number">2.</span> <span class="toc-text">opc</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#ZigBee"><span class="toc-number">3.</span> <span class="toc-text">ZigBee</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#MQTT%E5%92%8CCOAP"><span class="toc-number">4.</span> <span class="toc-text">MQTT和COAP</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Can"><span class="toc-number">5.</span> <span class="toc-text">Can</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Modbus"><span class="toc-number">6.</span> <span class="toc-text">Modbus</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%90%8D%E8%AF%8D%E7%BC%A9%E5%86%99"><span class="toc-number">6.1.</span> <span class="toc-text">名词缩写</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Protocol-versions"><span class="toc-number">6.2.</span> <span class="toc-text">Protocol versions</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Modbus-RTU-frame-format"><span class="toc-number">6.2.1.</span> <span class="toc-text">Modbus RTU frame format</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Modbus-ASCII-frame-format"><span class="toc-number">6.2.2.</span> <span class="toc-text">Modbus ASCII frame format</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Modbus-TCP-frame-format"><span class="toc-number">6.2.3.</span> <span class="toc-text">Modbus TCP frame format</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Profibus%EF%BC%88PROcess-FIeld-BUS%EF%BC%89"><span class="toc-number">7.</span> <span class="toc-text">Profibus（PROcess FIeld BUS）</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%85%B6%E4%BB%96"><span class="toc-number">8.</span> <span class="toc-text">其他</span></a></li></ol>
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%88%86%E7%B1%BB"><span class="toc-number">1.</span> <span class="toc-text">分类</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#opc"><span class="toc-number">2.</span> <span class="toc-text">opc</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#ZigBee"><span class="toc-number">3.</span> <span class="toc-text">ZigBee</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#MQTT%E5%92%8CCOAP"><span class="toc-number">4.</span> <span class="toc-text">MQTT和COAP</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Can"><span class="toc-number">5.</span> <span class="toc-text">Can</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Modbus"><span class="toc-number">6.</span> <span class="toc-text">Modbus</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%90%8D%E8%AF%8D%E7%BC%A9%E5%86%99"><span class="toc-number">6.1.</span> <span class="toc-text">名词缩写</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Protocol-versions"><span class="toc-number">6.2.</span> <span class="toc-text">Protocol versions</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Modbus-RTU-frame-format"><span class="toc-number">6.2.1.</span> <span class="toc-text">Modbus RTU frame format</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Modbus-ASCII-frame-format"><span class="toc-number">6.2.2.</span> <span class="toc-text">Modbus ASCII frame format</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Modbus-TCP-frame-format"><span class="toc-number">6.2.3.</span> <span class="toc-text">Modbus TCP frame format</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Profibus%EF%BC%88PROcess-FIeld-BUS%EF%BC%89"><span class="toc-number">7.</span> <span class="toc-text">Profibus（PROcess FIeld BUS）</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Wifi%E4%B8%8E%E4%BB%A5%E5%A4%AA%E7%BD%91"><span class="toc-number">8.</span> <span class="toc-text">Wifi与以太网</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%85%B6%E4%BB%96"><span class="toc-number">9.</span> <span class="toc-text">其他</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#CRC%E7%94%9F%E6%88%90"><span class="toc-number">10.</span> <span class="toc-text">CRC生成</span></a></li></ol>
     </nav>
   </div>
 </aside>
@@ -400,7 +400,7 @@
         <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2021/10/28/%E5%90%84%E7%A7%8D%E5%8D%8F%E8%AE%AE/#comments" class="article-comment-link">评论</a></span>
         
 	
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 743(字)</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 776(字)</span>
 	
 	
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 3(分)</span>
@@ -412,8 +412,9 @@
       
         <p>需要用到的协议<br>ModBus、OPC、CAN、Profibus、ZigBee、Wifi、MQTT、COAP</p>
 <h1 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h1><p>基于以太网的：</p>
-<p>OPC，ZigBee，Wifi，MQTT，CoAP</p>
+<p>OPC，Wifi，MQTT，CoAP</p>
 <p>独立的：</p>
+<p>ZigBee(这是一个低速双向<strong>无线</strong>通信，在国内只能用2.4G频段)</p>
 <p>can</p>
 <p>modbus（485，232，422，以太网）</p>
 <p>Profibus（485，光纤，MBP）</p>
@@ -617,8 +618,9 @@
 </tbody></table>
 <p>最大传输距离在9.6K<del>187.5Kbps时为1000m，500Kbps时为400m，1500Kbps时为200m，3000K</del>12000Kbps时为100m，可用中继器延长至10km</p>
 <p>常见<strong>数据速率（波特）：</strong>12M、6M、3M、1.5M、500k、187.5k、93.75k、19.2k、9.6k</p>
-<h1 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h1><p>工业以太网协议  EtherCAT, Profinet and multiprotocols.</p>
+<h1 id="Wifi与以太网"><a href="#Wifi与以太网" class="headerlink" title="Wifi与以太网"></a>Wifi与以太网</h1><h1 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h1><p>工业以太网协议  EtherCAT, Profinet and multiprotocols.</p>
 <p><a target="_blank" rel="noopener" href="https://e2e.ti.com/blogs_/b/industrial_strength/posts/a-history-of-industrial-ethernet-protocols-and-their-benefits">https://e2e.ti.com/blogs_/b/industrial_strength/posts/a-history-of-industrial-ethernet-protocols-and-their-benefits</a></p>
+<h1 id="CRC生成"><a href="#CRC生成" class="headerlink" title="CRC生成"></a>CRC生成</h1><p><a target="_blank" rel="noopener" href="http://outputlogic.com/?page_id=321">OutputLogic.com » CRC Generator</a></p>
 
       
     </div>
