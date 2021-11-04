@@ -26,10 +26,13 @@
 <meta property="og:description" content="需要用到的协议ModBus、OPC、CAN、Profibus、ZigBee、Wifi、MQTT、COAP 分类基于以太网的： OPC，Wifi，MQTT，CoAP 独立的： ZigBee(这是一个低速双向无线通信，在国内只能用2.4G频段) can modbus（485，232，422，以太网） Profibus（485，光纤，MBP） opchttps:&#x2F;&#x2F;github.com&#x2F;OPCFound">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://gitee.com/wangdaochuan/img-save-2/raw/master/image-20211028201044153.png">
+<meta property="og:image" content="https://gitee.com/wangdaochuan/img-save-2/raw/master/202111040306881.png">
+<meta property="og:image" content="https://gitee.com/wangdaochuan/img-save-2/raw/master/202111040321130.png">
 <meta property="og:image" content="https://gitee.com/wangdaochuan/img-save-2/raw/master/202110291832948.png">
 <meta property="og:image" content="https://gitee.com/wangdaochuan/img-save-2/raw/master/202110282120824.png">
+<meta property="og:image" content="https://gitee.com/wangdaochuan/img-save-2/raw/master/202111042042496.png">
 <meta property="article:published_time" content="2021-10-28T09:53:37.000Z">
-<meta property="article:modified_time" content="2021-11-01T15:01:55.614Z">
+<meta property="article:modified_time" content="2021-11-04T12:57:46.624Z">
 <meta property="article:author" content="wanghao">
 <meta property="article:tag" content="通信协议">
 <meta name="twitter:card" content="summary">
@@ -356,7 +359,7 @@
   <div class="slimContent">
     <nav id="toc" class="article-toc">
       <h3 class="toc-title">文章目录</h3>
-      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%88%86%E7%B1%BB"><span class="toc-number">1.</span> <span class="toc-text">分类</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#opc"><span class="toc-number">2.</span> <span class="toc-text">opc</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#ZigBee"><span class="toc-number">3.</span> <span class="toc-text">ZigBee</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#MQTT%E5%92%8CCOAP"><span class="toc-number">4.</span> <span class="toc-text">MQTT和COAP</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Can"><span class="toc-number">5.</span> <span class="toc-text">Can</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Modbus"><span class="toc-number">6.</span> <span class="toc-text">Modbus</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%90%8D%E8%AF%8D%E7%BC%A9%E5%86%99"><span class="toc-number">6.1.</span> <span class="toc-text">名词缩写</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Protocol-versions"><span class="toc-number">6.2.</span> <span class="toc-text">Protocol versions</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Modbus-RTU-frame-format"><span class="toc-number">6.2.1.</span> <span class="toc-text">Modbus RTU frame format</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Modbus-ASCII-frame-format"><span class="toc-number">6.2.2.</span> <span class="toc-text">Modbus ASCII frame format</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Modbus-TCP-frame-format"><span class="toc-number">6.2.3.</span> <span class="toc-text">Modbus TCP frame format</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Profibus%EF%BC%88PROcess-FIeld-BUS%EF%BC%89"><span class="toc-number">7.</span> <span class="toc-text">Profibus（PROcess FIeld BUS）</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Wifi%E4%B8%8E%E4%BB%A5%E5%A4%AA%E7%BD%91"><span class="toc-number">8.</span> <span class="toc-text">Wifi与以太网</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%85%B6%E4%BB%96"><span class="toc-number">9.</span> <span class="toc-text">其他</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#CRC%E7%94%9F%E6%88%90"><span class="toc-number">10.</span> <span class="toc-text">CRC生成</span></a></li></ol>
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%88%86%E7%B1%BB"><span class="toc-number">1.</span> <span class="toc-text">分类</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#opc"><span class="toc-number">2.</span> <span class="toc-text">opc</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#ZigBee"><span class="toc-number">3.</span> <span class="toc-text">ZigBee</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#MQTT%E5%92%8CCOAP"><span class="toc-number">4.</span> <span class="toc-text">MQTT和COAP</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#MQTT-Protocol"><span class="toc-number">4.1.</span> <span class="toc-text">MQTT Protocol</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Fix-Header-%EF%BC%881-Byte-1-4%EF%BC%89"><span class="toc-number">4.1.1.</span> <span class="toc-text">Fix Header （1 Byte+1~4）</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Can"><span class="toc-number">5.</span> <span class="toc-text">Can</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Modbus"><span class="toc-number">6.</span> <span class="toc-text">Modbus</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%90%8D%E8%AF%8D%E7%BC%A9%E5%86%99"><span class="toc-number">6.1.</span> <span class="toc-text">名词缩写</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Protocol-versions"><span class="toc-number">6.2.</span> <span class="toc-text">Protocol versions</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Modbus-RTU-frame-format"><span class="toc-number">6.2.1.</span> <span class="toc-text">Modbus RTU frame format</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Modbus-ASCII-frame-format"><span class="toc-number">6.2.2.</span> <span class="toc-text">Modbus ASCII frame format</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Modbus-TCP-frame-format"><span class="toc-number">6.2.3.</span> <span class="toc-text">Modbus TCP frame format</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Profibus%EF%BC%88PROcess-FIeld-BUS%EF%BC%89"><span class="toc-number">7.</span> <span class="toc-text">Profibus（PROcess FIeld BUS）</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Wifi%E4%B8%8E%E4%BB%A5%E5%A4%AA%E7%BD%91"><span class="toc-number">8.</span> <span class="toc-text">Wifi与以太网</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%85%B6%E4%BB%96"><span class="toc-number">9.</span> <span class="toc-text">其他</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#CRC%E7%94%9F%E6%88%90"><span class="toc-number">10.</span> <span class="toc-text">CRC生成</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#MQTT%E7%A7%BB%E6%A4%8D"><span class="toc-number">11.</span> <span class="toc-text">MQTT移植</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Mosquitto"><span class="toc-number">11.1.</span> <span class="toc-text">Mosquitto</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#local-machine"><span class="toc-number">11.1.1.</span> <span class="toc-text">local machine</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#openssl"><span class="toc-number">11.1.2.</span> <span class="toc-text">openssl</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#cjson"><span class="toc-number">11.1.3.</span> <span class="toc-text">cjson</span></a></li></ol></li></ol></li></ol>
     </nav>
   </div>
 </aside>
@@ -400,10 +403,10 @@
         <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2021/10/28/%E5%90%84%E7%A7%8D%E5%8D%8F%E8%AE%AE/#comments" class="article-comment-link">评论</a></span>
         
 	
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 776(字)</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 1.3k(字)</span>
 	
 	
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 3(分)</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 6(分)</span>
 	
 
       </div>
@@ -425,6 +428,11 @@
 <p><strong>The Constrained Application Protocol</strong>（CoAP）</p>
 <p>MQTT： <strong>TCP</strong> 长链接， CoAP： <strong>UDP</strong> 低功耗短连接</p>
 <p>Playload  来自IP协议</p>
+<h2 id="MQTT-Protocol"><a href="#MQTT-Protocol" class="headerlink" title="MQTT Protocol"></a>MQTT Protocol</h2><p><a target="_blank" rel="noopener" href="http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/errata01/os/mqtt-v3.1.1-errata01-os-complete.html#_Figure_2.1_-">http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/errata01/os/mqtt-v3.1.1-errata01-os-complete.html#_Figure_2.1_-</a></p>
+<h3 id="Fix-Header-（1-Byte-1-4）"><a href="#Fix-Header-（1-Byte-1-4）" class="headerlink" title="Fix Header （1 Byte+1~4）"></a>Fix Header （1 Byte+1~4）</h3><p>下图所示为 Control packet types ，Control packet types有四位[7:4]，去掉全0和全1，其他功能大致可分为 连接代理，Pub信息，开启sub，关闭sub，关闭连接</p>
+<p><img src="https://gitee.com/wangdaochuan/img-save-2/raw/master/202111040306881.png" alt="image-20211104030633770"></p>
+<p>剩下的[3:0]位是与上面Control packet types（去掉两个Reserved）相对应的flag，最有用的是PUBLISH的，其他的是协议固定要求</p>
+<p><img src="https://gitee.com/wangdaochuan/img-save-2/raw/master/202111040321130.png" alt="image-20211104032114070"></p>
 <h1 id="Can"><a href="#Can" class="headerlink" title="Can"></a>Can</h1><h1 id="Modbus"><a href="#Modbus" class="headerlink" title="Modbus"></a>Modbus</h1><p>modbus指的是MODICON公司为该公司生产的PLC设计的一种通信协议，从其功能上看，可以认为是一种现场总线。modbus常用于工业环境中，是客户端/服务器协议</p>
 <p>modbus 可以用在多种类型的网络和总线上（RS-485，RS-232，RS-422，以太网），下图展示了一个例子</p>
 <p><img src="https://gitee.com/wangdaochuan/img-save-2/raw/master/202110291832948.png" alt="image-20211029183215852"></p>
@@ -621,6 +629,43 @@
 <h1 id="Wifi与以太网"><a href="#Wifi与以太网" class="headerlink" title="Wifi与以太网"></a>Wifi与以太网</h1><h1 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h1><p>工业以太网协议  EtherCAT, Profinet and multiprotocols.</p>
 <p><a target="_blank" rel="noopener" href="https://e2e.ti.com/blogs_/b/industrial_strength/posts/a-history-of-industrial-ethernet-protocols-and-their-benefits">https://e2e.ti.com/blogs_/b/industrial_strength/posts/a-history-of-industrial-ethernet-protocols-and-their-benefits</a></p>
 <h1 id="CRC生成"><a href="#CRC生成" class="headerlink" title="CRC生成"></a>CRC生成</h1><p><a target="_blank" rel="noopener" href="http://outputlogic.com/?page_id=321">OutputLogic.com » CRC Generator</a></p>
+<h1 id="MQTT移植"><a href="#MQTT移植" class="headerlink" title="MQTT移植"></a>MQTT移植</h1><p>开源的MQTT broker <a target="_blank" rel="noopener" href="https://www.jianshu.com/p/3e33adcb0ed5">https://www.jianshu.com/p/3e33adcb0ed5</a></p>
+<p>最后选择了轻量的Mosquitto </p>
+<h2 id="Mosquitto"><a href="#Mosquitto" class="headerlink" title="Mosquitto"></a>Mosquitto</h2><p>基于C的开源 mqtt broker ：Mosquitto<br>Eclipse Mosquitto 是一个开源（EPL/EDL 许可）消息代理，它实现了 MQTT 协议版本 5.0、3.1.1 和 3.1。Mosquitto 重量轻，适用于从低功耗单板计算机到完整服务器的所有设备。<br>Mosquitto 官网：<br><a target="_blank" rel="noopener" href="https://mosquitto.org/">https://mosquitto.org/</a></p>
+<p>Mosquitto 源码：<br><a target="_blank" rel="noopener" href="https://github.com/eclipse/mosquitto">https://github.com/eclipse/mosquitto</a></p>
+<p>Mosquitto 移植教程：<br><img src="https://gitee.com/wangdaochuan/img-save-2/raw/master/202111042042496.png" alt="img"><a target="_blank" rel="noopener" href="https://www.bilibili.com/read/cv8923099">https://www.bilibili.com/read/cv8923099</a></p>
+<p>Mosquitto 手动编译教程：</p>
+<p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/chen1-kerr/p/7258487.html">https://www.cnblogs.com/chen1-kerr/p/7258487.html</a></p>
+<p>关于依赖（来自源码的README）</p>
+<ul>
+<li>c-ares (libc-ares-dev on Debian based systems) - only when compiled with <code>make WITH_SRV=yes</code></li>
+<li>cJSON - for client JSON output support. Disable with <code>make WITH_CJSON=no</code> Auto detected with CMake.</li>
+<li>libwebsockets (libwebsockets-dev) - enable with <code>make WITH_WEBSOCKETS=yes</code></li>
+<li>openssl (libssl-dev on Debian based systems) - disable with <code>make WITH_TLS=no</code></li>
+<li>pthreads - for client library thread support. This is required to support the <code>mosquitto_loop_start()</code> and <code>mosquitto_loop_stop()</code> functions. If compiled without pthread support, the library isn’t guaranteed to be thread safe.</li>
+<li>uthash / utlist - bundled versions of these headers are provided, disable their use with <code>make WITH_BUNDLED_DEPS=no</code></li>
+<li>xsltproc (xsltproc and docbook-xsl on Debian based systems) - only needed when building from git sources - disable with <code>make WITH_DOCS=no</code></li>
+</ul>
+<h3 id="local-machine"><a href="#local-machine" class="headerlink" title="local machine"></a>local machine</h3><p>By default, the Mosquitto broker will only accept connections from clients on the local machine (the server hosting the broker). Therefore, a custom configuration needs to be used with your instance of Mosquitto in order to accept connections from remote clients.</p>
+<ol>
+<li>On your Windows machine, run a text editor as administrator and paste the following text:</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">listener 1883</span><br><span class="line">allow_anonymous true</span><br></pre></td></tr></table></figure>
+
+<p>可能需要</p>
+<h3 id="openssl"><a href="#openssl" class="headerlink" title="openssl"></a>openssl</h3><p><a target="_blank" rel="noopener" href="https://www.openssl.org/source/">https://www.openssl.org/source/</a></p>
+<p>直接搞 tar.gz 不要 直接从git上拉</p>
+<p>基本能用的教程：<a target="_blank" rel="noopener" href="https://www.jianshu.com/p/688748172dc7">https://www.jianshu.com/p/688748172dc7</a></p>
+<h3 id="cjson"><a href="#cjson" class="headerlink" title="cjson"></a>cjson</h3><p><a target="_blank" rel="noopener" href="https://github.com/json-c/json-c#buildunix">https://github.com/json-c/json-c#buildunix</a> 直接clone让然后编译就好</p>
+<p>在ubuntu x86下 缺xsltproc</p>
+<p>sudo apt install xsltproc</p>
+<ul>
+<li></li>
+</ul>
+<p>注：动态库路径可添加到  </p>
+<blockquote>
+<p>/etc/ld.so.conf</p>
+</blockquote>
 
       
     </div>
