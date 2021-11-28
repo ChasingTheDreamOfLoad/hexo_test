@@ -6,7 +6,7 @@
   <link href="http://blog.hyaline.top/atom.xml" rel="self"/>
   
   <link href="http://blog.hyaline.top/"/>
-  <updated>2021-11-04T14:28:44.664Z</updated>
+  <updated>2021-11-28T14:38:32.612Z</updated>
   <id>http://blog.hyaline.top/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>虚拟局域网</title>
+    <link href="http://blog.hyaline.top/2021/11/28/%E8%99%9A%E6%8B%9F%E5%B1%80%E5%9F%9F%E7%BD%91/"/>
+    <id>http://blog.hyaline.top/2021/11/28/%E8%99%9A%E6%8B%9F%E5%B1%80%E5%9F%9F%E7%BD%91/</id>
+    <published>2021-11-28T05:37:00.000Z</published>
+    <updated>2021-11-28T14:38:32.612Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.muzijie.com/a1/83jrq7je.html&quot;&gt;https://www.muzijie.com/a1/83jrq7je.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>各种协议</title>
@@ -305,7 +327,7 @@
     <link href="http://blog.hyaline.top/2021/09/19/Sublime-Text%E7%9A%84%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/"/>
     <id>http://blog.hyaline.top/2021/09/19/Sublime-Text%E7%9A%84%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/</id>
     <published>2021-09-19T02:17:36.000Z</published>
-    <updated>2021-10-11T06:26:08.783Z</updated>
+    <updated>2021-11-06T14:54:30.254Z</updated>
     
     
       
@@ -442,33 +464,6 @@
     
     
     <category term="git 命令" scheme="http://blog.hyaline.top/tags/git-%E5%91%BD%E4%BB%A4/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>焊接指南</title>
-    <link href="http://blog.hyaline.top/2021/08/08/%E7%84%8A%E6%8E%A5%E6%8C%87%E5%8D%97/"/>
-    <id>http://blog.hyaline.top/2021/08/08/%E7%84%8A%E6%8E%A5%E6%8C%87%E5%8D%97/</id>
-    <published>2021-08-08T05:14:41.000Z</published>
-    <updated>2021-08-09T09:56:18.735Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;芯片正方向&quot;&gt;&lt;a href=&quot;#芯片正方向&quot; class=&quot;headerlink&quot; title=&quot;芯片正方向&quot;&gt;&lt;/a&gt;芯片正方向&lt;/h1&gt;&lt;h2 id=&quot;ASIC芯片&quot;&gt;&lt;a href=&quot;#ASIC芯片&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="硬件" scheme="http://blog.hyaline.top/categories/%E7%A1%AC%E4%BB%B6/"/>
-    
-    
-    <category term="焊接" scheme="http://blog.hyaline.top/tags/%E7%84%8A%E6%8E%A5/"/>
-    
-    <category term="Altium Designer" scheme="http://blog.hyaline.top/tags/Altium-Designer/"/>
     
   </entry>
   
