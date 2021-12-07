@@ -6,7 +6,7 @@
   <link href="http://blog.hyaline.top/atom.xml" rel="self"/>
   
   <link href="http://blog.hyaline.top/"/>
-  <updated>2021-11-28T14:38:32.612Z</updated>
+  <updated>2021-12-07T11:42:14.668Z</updated>
   <id>http://blog.hyaline.top/</id>
   
   <author>
@@ -15,6 +15,41 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>fax.net.api 阅读</title>
+    <link href="http://blog.hyaline.top/2021/12/07/fax-net-api-%E9%98%85%E8%AF%BB/"/>
+    <id>http://blog.hyaline.top/2021/12/07/fax-net-api-%E9%98%85%E8%AF%BB/</id>
+    <published>2021-12-07T10:05:40.000Z</published>
+    <updated>2021-12-07T11:42:14.668Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;程序依赖&quot;&gt;&lt;a href=&quot;#程序依赖&quot; class=&quot;headerlink&quot; title=&quot;程序依赖&quot;&gt;&lt;/a&gt;程序依赖&lt;/h1&gt;&lt;p&gt;依赖项很多，我这里只写我在程序里看到的&lt;/p&gt;
+&lt;h2 id=&quot;EntityFramework6&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>jetLinks社区版tip</title>
+    <link href="http://blog.hyaline.top/2021/11/30/jetLinks%E7%A4%BE%E5%8C%BA%E7%89%88tip/"/>
+    <id>http://blog.hyaline.top/2021/11/30/jetLinks%E7%A4%BE%E5%8C%BA%E7%89%88tip/</id>
+    <published>2021-11-30T02:19:51.000Z</published>
+    <updated>2021-11-30T02:19:51.926Z</updated>
+    
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>虚拟局域网</title>
@@ -418,52 +453,6 @@
     
     
     
-    
-  </entry>
-  
-  <entry>
-    <title>linux 解压缩</title>
-    <link href="http://blog.hyaline.top/2021/08/13/linux-%E8%A7%A3%E5%8E%8B%E7%BC%A9/"/>
-    <id>http://blog.hyaline.top/2021/08/13/linux-%E8%A7%A3%E5%8E%8B%E7%BC%A9/</id>
-    <published>2021-08-13T15:24:06.000Z</published>
-    <updated>2021-10-17T02:17:04.222Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;尝试一下 tar</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>git 技巧</title>
-    <link href="http://blog.hyaline.top/2021/08/09/git-%E6%8A%80%E5%B7%A7/"/>
-    <id>http://blog.hyaline.top/2021/08/09/git-%E6%8A%80%E5%B7%A7/</id>
-    <published>2021-08-09T13:36:21.000Z</published>
-    <updated>2021-10-30T03:01:42.760Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;git-权威书籍-Pro-Git&quot;&gt;&lt;a href=&quot;#git-权威书籍-Pro-Git&quot; class=&quot;headerlink&quot; title=&quot;git 权威书籍 Pro Git&quot;&gt;&lt;/a&gt;git 权威书籍 Pro</summary>
-        
-      
-    
-    
-    
-    <category term="git" scheme="http://blog.hyaline.top/categories/git/"/>
-    
-    
-    <category term="git 命令" scheme="http://blog.hyaline.top/tags/git-%E5%91%BD%E4%BB%A4/"/>
     
   </entry>
   
