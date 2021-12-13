@@ -18,17 +18,19 @@
   
   
   <title>虚拟局域网 | hyaline blog</title>
-  <meta name="description" content="https:&#x2F;&#x2F;www.muzijie.com&#x2F;a1&#x2F;83jrq7je.html https:&#x2F;&#x2F;www.vsay.net&#x2F;mycode&#x2F;141.html">
+  <meta name="description" content="https:&#x2F;&#x2F;www.muzijie.com&#x2F;a1&#x2F;83jrq7je.html https:&#x2F;&#x2F;www.vsay.net&#x2F;mycode&#x2F;141.html 目标有A，B，C 三个设备， 其中 C 是一个 PLC，B与C直接相连，A在异地，希望实现 A可以ping到C Start整个项目的头绪是从虚拟网卡开始的，通过观察购买的可实现p2p虚拟局域网的设备，我知道了有一个叫虚拟网卡的东西，通过观察，我">
 <meta property="og:type" content="article">
 <meta property="og:title" content="虚拟局域网">
 <meta property="og:url" content="http://blog.hyaline.top/2021/11/28/%E8%99%9A%E6%8B%9F%E5%B1%80%E5%9F%9F%E7%BD%91/index.html">
 <meta property="og:site_name" content="wanghao&#39;Blog">
-<meta property="og:description" content="https:&#x2F;&#x2F;www.muzijie.com&#x2F;a1&#x2F;83jrq7je.html https:&#x2F;&#x2F;www.vsay.net&#x2F;mycode&#x2F;141.html">
+<meta property="og:description" content="https:&#x2F;&#x2F;www.muzijie.com&#x2F;a1&#x2F;83jrq7je.html https:&#x2F;&#x2F;www.vsay.net&#x2F;mycode&#x2F;141.html 目标有A，B，C 三个设备， 其中 C 是一个 PLC，B与C直接相连，A在异地，希望实现 A可以ping到C Start整个项目的头绪是从虚拟网卡开始的，通过观察购买的可实现p2p虚拟局域网的设备，我知道了有一个叫虚拟网卡的东西，通过观察，我">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Tun-tap-osilayers-diagram.png/400px-Tun-tap-osilayers-diagram.png">
 <meta property="article:published_time" content="2021-11-28T05:37:00.000Z">
-<meta property="article:modified_time" content="2021-11-28T14:38:32.612Z">
+<meta property="article:modified_time" content="2021-12-12T13:35:06.332Z">
 <meta property="article:author" content="wanghao">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Tun-tap-osilayers-diagram.png/400px-Tun-tap-osilayers-diagram.png">
   <!-- Canonical links -->
   <link rel="canonical" href="http://blog.hyaline.top/2021/11/28/%E8%99%9A%E6%8B%9F%E5%B1%80%E5%9F%9F%E7%BD%91/index.html">
   
@@ -376,7 +378,7 @@
         <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2021/11/28/%E8%99%9A%E6%8B%9F%E5%B1%80%E5%9F%9F%E7%BD%91/#comments" class="article-comment-link">评论</a></span>
         
 	
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 14(字)</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 450(字)</span>
 	
 	
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 1(分)</span>
@@ -388,6 +390,21 @@
       
         <p><a target="_blank" rel="noopener" href="https://www.muzijie.com/a1/83jrq7je.html">https://www.muzijie.com/a1/83jrq7je.html</a></p>
 <p><a target="_blank" rel="noopener" href="https://www.vsay.net/mycode/141.html">https://www.vsay.net/mycode/141.html</a></p>
+<h1 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h1><p>有A，B，C 三个设备， 其中 C 是一个 PLC，B与C直接相连，A在异地，希望实现 A可以ping到C</p>
+<h1 id="Start"><a href="#Start" class="headerlink" title="Start"></a>Start</h1><p>整个项目的头绪是从虚拟网卡开始的，通过观察购买的可实现p2p虚拟局域网的设备，我知道了有一个叫虚拟网卡的东西，通过观察，我了解到了TUN/TAP设备</p>
+<p><strong>TUN</strong>与<strong>TAP</strong>是操作系统内核中的虚拟网络设备。不同于普通靠硬件<a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/%E7%BD%91%E7%BB%9C%E9%80%82%E9%85%8D%E5%99%A8">网络适配器</a>实现的设备，这些虚拟的网络设备全部用软件实现，并向运行于<a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F">操作系统</a>上的软件提供与硬件的网络设备完全相同的功能。</p>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Tun-tap-osilayers-diagram.png/400px-Tun-tap-osilayers-diagram.png" alt="TUN/TAP"></p>
+<p>通过查找 TUN/TAP的 <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/TUN/TAP">wiki</a>,可以知道实现VPN（这里是单纯的虚拟局域网）的一些方法 </p>
+<p>例如 </p>
+<blockquote>
+<p>open vpn<br>FreeVpn<br>N2N<br>等</p>
+</blockquote>
+<p>凭直觉我点开了N2N，他的描述符合我对已有设备的观察，因此决定从这里开始</p>
+<h1 id="N2N"><a href="#N2N" class="headerlink" title="N2N"></a>N2N</h1><p>N2N的资料比较好找，通过一下午测试，我们实现了虚拟局域网的建立，实现了从A ping B ，而B和C直接相连，B也可以ping到C，似乎马上就要结束了，但是当我将B设备的虚拟网卡和真实网卡IP设在同一个网段后，一切都乱套了。那么一定是缺了什么</p>
+<h2 id="Linux-网络管理员指南"><a href="#Linux-网络管理员指南" class="headerlink" title="Linux 网络管理员指南"></a>Linux 网络管理员指南</h2><p><a target="_blank" rel="noopener" href="https://www.tldp.org/LDP/nag2/v">https://www.tldp.org/LDP/nag2/v</a></p>
+<p>如何将 目的IP地址进行匹配</p>
+<p>The process for identifying whether a particular destination address matches a route is a mathematical operation. The process is quite simple, but it requires an understanding of binary arithmetic and logic: A route matches a destination if the network address logically ANDed with the netmask precisely equals the destination address logically ANDed with the netmask.</p>
+<p>虚拟网卡的工作原理</p>
 
       
     </div>
