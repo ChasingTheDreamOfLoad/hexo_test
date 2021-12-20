@@ -26,7 +26,7 @@
 <meta property="og:description" content="程序依赖依赖项很多，我这里只写我在程序里看到的 EntityFramework6EntityFramework6  用于操作数据库（MSSQL） 其日志写入依靠此框架（以下来自官网）  Entity Framework Core is a modern object-database mapper for .NET. It supports LINQ queries, change trackin">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-12-07T10:05:40.000Z">
-<meta property="article:modified_time" content="2021-12-09T05:23:42.522Z">
+<meta property="article:modified_time" content="2021-12-20T07:07:30.848Z">
 <meta property="article:author" content="wanghao">
 <meta name="twitter:card" content="summary">
   <!-- Canonical links -->
@@ -376,10 +376,10 @@
         <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2021/12/07/fax-net-api-%E9%98%85%E8%AF%BB/#comments" class="article-comment-link">评论</a></span>
         
 	
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 274(字)</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 555(字)</span>
 	
 	
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 1(分)</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 2(分)</span>
 	
 
       </div>
@@ -396,13 +396,34 @@
 <p>由于其 在FAX.NET.API中封装进了EFHelper ，所以 对操作数据库的修改并不简单</p>
 <h2 id="SAEA-框架"><a href="#SAEA-框架" class="headerlink" title="SAEA 框架"></a>SAEA 框架</h2><p>代码中的webapi 部分使用了 <strong>SAEA.HTTP</strong> 的库</p>
 <p>DOTNET 的包管理器</p>
+<p>SAEA 的 mqtt部分和 另一个开源项目 (mqttnet)[] 不能说很像，只能说完全一样</p>
+<p>Json.net  或者说 Newtonsoft 的库 用于json数据的转换</p>
+<h1 id="Minio-分布式存储"><a href="#Minio-分布式存储" class="headerlink" title="Minio 分布式存储"></a>Minio 分布式存储</h1><p><a target="_blank" rel="noopener" href="https://docs.min.io/docs/minio-docker-quickstart-guide.html">https://docs.min.io/docs/minio-docker-quickstart-guide.html</a></p>
+<p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/103803549">https://zhuanlan.zhihu.com/p/103803549</a></p>
+<h1 id="Linux-根目录文件夹的含义"><a href="#Linux-根目录文件夹的含义" class="headerlink" title="Linux 根目录文件夹的含义"></a>Linux 根目录文件夹的含义</h1><p>这是redhat的教程</p>
+<p><a target="_blank" rel="noopener" href="https://web.mit.edu/rhel-doc/4/RH-DOCS/rhel-rg-en-4/s1-filesystem-fhs.html">https://web.mit.edu/rhel-doc/4/RH-DOCS/rhel-rg-en-4/s1-filesystem-fhs.html</a></p>
 <h1 id="C-的-语法"><a href="#C-的-语法" class="headerlink" title="C# 的 语法"></a>C# 的 语法</h1><h2 id="lambda-运算符"><a href="#lambda-运算符" class="headerlink" title="lambda 运算符"></a>lambda 运算符</h2><h2 id="set-get-符号是啥"><a href="#set-get-符号是啥" class="headerlink" title="{set; get;} 符号是啥"></a>{set; get;} 符号是啥</h2><p><a target="_blank" rel="noopener" href="https://stackoverflow.com/questions/5096926/what-is-the-get-set-syntax-in-c">https://stackoverflow.com/questions/5096926/what-is-the-get-set-syntax-in-c</a></p>
 <h2 id="EFHelper-这里-lt-gt-里面的东西是什么"><a href="#EFHelper-这里-lt-gt-里面的东西是什么" class="headerlink" title="EFHelper 这里&lt;&gt;里面的东西是什么"></a>EFHelper<LogsPackageInfo> 这里&lt;&gt;里面的东西是什么</h2><p>这里有一个 <strong>Generic</strong> 泛型的概念</p>
 <p><a target="_blank" rel="noopener" href="https://stackoverflow.com/questions/2745815/in-c-what-is-t-after-a-method-declaration">https://stackoverflow.com/questions/2745815/in-c-what-is-t-after-a-method-declaration</a></p>
+<p>可以使用带有 <code>new</code> 运算符的<a target="_blank" rel="noopener" href="https://docs.microsoft.com/zh-cn/dotnet/csharp/programming-guide/classes-and-structs/object-and-collection-initializers">对象或集合初始值设定项</a>实例化和初始化一个语句中的对象，如下例所示：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">var dict = new Dictionary&lt;string, int&gt;</span><br><span class="line">&#123;</span><br><span class="line">    [&quot;first&quot;] = 10,</span><br><span class="line">    [&quot;second&quot;] = 20,</span><br><span class="line">    [&quot;third&quot;] = 30</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">Console.WriteLine(string.Join(&quot;; &quot;, dict.Select(entry =&gt; $&quot;&#123;entry.Key&#125;: &#123;entry.Value&#125;&quot;)));</span><br><span class="line">// Output:</span><br><span class="line">// first: 10; second: 20; third: 30</span><br></pre></td></tr></table></figure>
+
+<p>大义就是 初始化变量</p>
+<p>Vs 中有XXX.design.cd 文件 它存在的意义是什么</p>
+<p>没太搞明白</p>
+<p><a target="_blank" rel="noopener" href="https://stackoverflow.com/questions/10101073/role-of-designer-cs-file-in-c-sharp">https://stackoverflow.com/questions/10101073/role-of-designer-cs-file-in-c-sharp</a></p>
 <h1 id="关于-NET"><a href="#关于-NET" class="headerlink" title="关于 .NET"></a>关于 .NET</h1><h2 id="关于ServiceBase，以及奇葩的调试方法"><a href="#关于ServiceBase，以及奇葩的调试方法" class="headerlink" title="关于ServiceBase，以及奇葩的调试方法"></a>关于ServiceBase，以及奇葩的调试方法</h2><p><a target="_blank" rel="noopener" href="https://alastaircrabtree.com/how-to-run-a-dotnet-windows-service-as-a-console-app/">https://alastaircrabtree.com/how-to-run-a-dotnet-windows-service-as-a-console-app/</a></p>
 <p>通过<strong>topshelf</strong> 我们可以用正常的执行区调试 </p>
 <h1 id="关于docker"><a href="#关于docker" class="headerlink" title="关于docker"></a>关于docker</h1><p>微软的讲的docker 蛮好的</p>
 <p><a target="_blank" rel="noopener" href="https://docs.microsoft.com/en-us/visualstudio/docker/tutorials/persist-your-data">Docker tutorial - Part 5: Persist your data | Microsoft Docs</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.runoob.com/http/http-content-type.html">https://www.runoob.com/http/http-content-type.html</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.bookstack.cn/read/ECharts3Tutorial/13.md">https://www.bookstack.cn/read/ECharts3Tutorial/13.md</a></p>
+<h1 id="组态页面的设计"><a href="#组态页面的设计" class="headerlink" title="组态页面的设计"></a>组态页面的设计</h1><p>框架</p>
+<p>当前前端绘图的几种方式</p>
+<p>HTML+CSS</p>
+<p>canvas(Echarts)</p>
+<p>svg(mxGraph)</p>
+<p><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/6a0fb9dc27af">https://www.jianshu.com/p/6a0fb9dc27af</a></p>
 
       
     </div>
