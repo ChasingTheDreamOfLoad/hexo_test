@@ -291,7 +291,7 @@
     <link href="http://blog.hyaline.top/2021/10/06/Vmware-%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/"/>
     <id>http://blog.hyaline.top/2021/10/06/Vmware-%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/</id>
     <published>2021-10-06T03:03:42.000Z</published>
-    <updated>2021-10-09T08:33:47.958Z</updated>
+    <updated>2022-01-11T15:17:00.187Z</updated>
     
     
       
@@ -304,6 +304,10 @@
     
     
     
+    <category term="虚拟机" scheme="http://blog.hyaline.top/categories/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    
+    
+    <category term="VMware" scheme="http://blog.hyaline.top/tags/VMware/"/>
     
   </entry>
   
